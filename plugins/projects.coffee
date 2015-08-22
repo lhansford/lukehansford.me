@@ -37,7 +37,7 @@ module.exports = (env, callback) ->
         return callback new Error "unknown paginator template '#{ options.template }'"
 
       # setup the template context
-      ctx = {@projects}
+      ctx = {@projects, page: {title: "Projects"}}
       # extend the template context with the enviroment locals
       env.utils.extend ctx, locals
       # finally render the template
