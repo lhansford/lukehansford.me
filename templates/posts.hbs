@@ -1,0 +1,17 @@
+{{!< layout.hbs }}
+{{#each articles}}
+  <div class="post-entry">
+    <div class="post-date">
+      {{formatDate}}
+    </div>
+    <div class="post-title">
+      <a href="{{ url }}">{{title}}</a>
+    </div>
+  </div>
+{{/each}}
+{{#if  prevPage}}
+  <a href="{{prevPage.url}}">« Newer Posts</a>
+{{/if}}
+{{#if  nextPage}}
+  <a href="{{nextPage.url}}">Older Posts »</a>
+{{/if}}

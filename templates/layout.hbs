@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/feed.xml"
+		rel="alternate"
+		title="Luke Hansford"
+		type="application/atom+xml">
+
+		<link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="/css/font-awesome-4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+	    <title>{{ page.title }}</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="title">
+					<h1><a href="/">Luke Hansford</a></h2>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="/posts.html">Blog</a></li>
+							<li><a href="/projects.html">Projects</a></li>
+						</ul>
+					</nav>
+				</header>
+				<div class="content">
+					{{{ body }}}
+				</div>
+				<footer>
+					<div class="footer">
+						<a href="http://twitter.com/lukehansford"><i class="fa fa-twitter fa-3x"></i></a>
+						<a href="http://github.com/lhansford"><i class="fa fa-github fa-3x"></i></a>
+						<a href="http://soundcloud.com/dallol"><i class="fa fa-soundcloud fa-3x"></i></a>
+						<a href="/feed.xml"><i class="fa fa-rss fa-3x"></i></a>
+					</div>
+				</footer>
+			</div>
+	</body>
+</html>

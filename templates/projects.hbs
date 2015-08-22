@@ -1,0 +1,9 @@
+{{!< layout.hbs }}
+<ul>
+	{{#each projects}}
+		<li>
+      <p><a href="{{ url }}">{{ title }} - {{formatDate}}</a></p>
+      <p><em>{{ metadata.description }}</em></p>
+    </li>
+	{{/each}}
+</ul>
