@@ -1,7 +1,7 @@
 ---
-title: The State of My Resolutions, May 2015
+title: The State of My Resolutions, September 2015
 author: luke
-date: 2015-05-01 15:00
+date: 2015-09-08 7:00
 template: post.hbs
 ---
 In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
