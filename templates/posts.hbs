@@ -1,11 +1,11 @@
 {{!< layout.hbs }}
 {{#each articles}}
-  <div class="post-entry">
-    <div class="post-date">
+  <div class="post-entry h-entry">
+    <div class="post-date dt-published">
       {{formatDate}}
     </div>
-    <div class="post-title">
-      <a href="{{ url }}">{{title}}</a>
+    <div class="post-title p-name">
+      <a href="{{ url }}" class="u-url">{{title}}</a>
     </div>
   </div>
 {{/each}}
