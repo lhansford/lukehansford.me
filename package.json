@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "moment": "2.3.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x",
-    "handlebars": "3.0.3"
+    "moment": "2.20.1",
+    "underscore": "1.8.3",
+    "typogr": "0.6.7",
+    "handlebars": "4.0.11"
   },
   "private": "true"
 }
