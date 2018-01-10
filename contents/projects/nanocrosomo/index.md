@@ -1,5 +1,5 @@
 ---
-title: NaNoCroSoMo
+title: NaNoCroSoMo [Offline]
 description: Man-machine novel writing that makes very little sense.
 author: luke
 date: 2014-11-23 15:00

@@ -15,8 +15,10 @@ module.exports = (env, callback) ->
     # helper that returns a list of projects found in *contents*
     # note that each project is assumed to have its own directory in the projects directory
     projects = contents[options.projects]._.directories.map (item) -> item.index
-    # skip articles that does not have a template associated
+    # skip projects that does not have a template associated
     projects = projects.filter (item) -> item.template isnt 'none'
+    # sort projects by date
+    projects.sort (a, b) -> b.date - a.date
     return projects
 
   class ProjectsPage extends env.plugins.Page
