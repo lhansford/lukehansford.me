@@ -1,3 +1,3 @@
-module.exports = function() {
-  return moment.utc(this.date).format();
+module.exports = function(date) {
+  return moment.utc(date).format();
 }
