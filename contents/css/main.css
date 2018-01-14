@@ -131,8 +131,16 @@ nav li {
 	margin: 40px;
 }
 
-.post-date {
+.post-header__date {
 	font-style: italic;
+}
+
+.post-date {
+	float:left;
+	width: 120px;
+	text-align: right;
+	font-style: italic;
+	padding-top: 0.3em;
 }
 
 .post-title{
