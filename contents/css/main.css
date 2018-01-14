@@ -86,6 +86,7 @@ nav li {
 .content h1 {
 	font-size: 28px;
 	font-weight: normal;
+	margin-bottom: 0.2em;
 }
 
 .content a {
@@ -131,11 +132,7 @@ nav li {
 }
 
 .post-date {
-	float:left;
-	width: 120px;
-	text-align: right;
 	font-style: italic;
-	padding-top: 0.3em;
 }
 
 .post-title{
