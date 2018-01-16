@@ -16,7 +16,7 @@ January is always reserved for listening to year ends lists for me, and the Fact
 Top picks from this list for me are Midori Takada's *Through The Looking Glass*, Metro Area's self-titled release, 
 and number one pick *Noir Et Blanc*.
 
-### [Make: Analog Synthesizers](https://www.amazon.com/Make-Analog-Synthesizers-Electronic-Synth-DIY/dp/1449345220
+### [Make: Analog Synthesizers](https://www.amazon.com/Make-Analog-Synthesizers-Electronic-Synth-DIY/dp/1449345220)
 
 I've been picking up some DIY electronics skills over the last few months, and I've decided to dive into 
 building my own synthesizer with this book as a guide. I'm still waiting on the parts to arrive so I 
