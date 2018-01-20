@@ -47,3 +47,5 @@ when a cable is plugged in, so make sure to get that one in if you're following 
 
 Amazingly it worked right off the bat! Well kind of - even prior to opening it up my Big Muff can barely have been considered to 
 have been "working right". So my next task is to rectify that and return it to its original distorted glory.
+
+[Next step, changing the potentiometers.](http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-2/);
