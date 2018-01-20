@@ -114,11 +114,15 @@ nav li {
 
 .blog-post iframe {
 	margin: 20px auto !important;
-	max-width: 80%;
 }
 
 .iframe-wrapper {
 	width: 100%;
+}
+
+.iframe-wrapper iframe {
+	max-width: 80%;
+	display: block;
 }
 
 .blog-post img {
