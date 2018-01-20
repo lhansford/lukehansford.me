@@ -24,4 +24,6 @@ Replacing the pots was simple enough - cut the wires, solder on the new ones, do
 The only outlier was that yellow wire - I have no idea what it's supposed to connect too! Regardless, 
 it worked out fine. Check out the crunchy results in the clip below.
 
+<div class="iframe-wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3Po1nA8cZj4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
