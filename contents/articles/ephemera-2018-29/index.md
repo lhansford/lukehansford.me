@@ -23,7 +23,7 @@ likely going to be one of the defining social changes of the 21st century.
 
 ## Watching
 
-### [Why We Bleep Podcast 001: Tom Whitwell] (https://www.youtube.com/watch?v=N18ro8nxXI4)
+### [Why We Bleep Podcast 001: Tom Whitwell](https://www.youtube.com/watch?v=N18ro8nxXI4)
 
 Oh yes! Mylar Melodies, one of my favourite synth YouTubers, has just started a long-form 
 interview series talking to the people behind electronic instruments. The first episode features the 
