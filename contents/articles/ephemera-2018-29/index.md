@@ -9,7 +9,7 @@ template: post.hbs
 ### [The Line 6 DL4 Is Quietly the Most Important Guitar Pedal of the Last 20 Years](https://pitchfork.com/thepitch/the-line-6-dl4-is-quietly-the-most-important-guitar-pedal-of-the-last-20-years/)
 
 A really interesting article on a guitar pedal I always dismissed as plastic trash. For some reason Line6
-products have always put me off, but apparently a lot of my favourite artists knew better. Battles have use over a dozen of them!
+products have always put me off, but apparently a lot of my favourite artists knew better. Battles have used over a dozen of them!
 
 ### [On being an Engineering Manager](http://codeplease.io/2018/01/15/on-being-an-engineering-manager/)
 
