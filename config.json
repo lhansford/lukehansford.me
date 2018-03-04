@@ -6,7 +6,6 @@
     "description": "Experiments and notes from Luke Hansford."
   },
   "plugins": [
-    "./plugins/music.coffee",
     "./plugins/paginator.coffee",
     "./plugins/projects.coffee",
     "./plugins/wintersmith-handlebars.coffee"
