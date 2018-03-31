@@ -1,5 +1,16 @@
 # lukehansford.me
-To update:
+
+## Setup
+- `nvm use`
+- `npm install wintersmith@2.2.0 -g` (Later versions of wintersmith aren't working for me)
+- `npm i`
+
+## Developing Locally
+- `wintersmith build`
+- `cd  build`
+- `python -m SimpleHTTPServer`
+
+## Updating
 - ssh into blog
 - cd /lukehansford.me
 - git pull
