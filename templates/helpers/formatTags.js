@@ -2,6 +2,9 @@ const Handlebars = require('handlebars');
 
 module.exports = function(tags) {
   var tags = tags ? tags.split(',') : [];
-  var tagElements = tags.map(t => `<span>#${t}</span>`);
+  tagElements = [];
+  for (var i = 0; i < tags.length; i++) {
+    tagElements.push('<span>#' + tags[i] + '</span>');
+  };
   return new Handlebars.SafeString(tagElements.join(''));
 }
