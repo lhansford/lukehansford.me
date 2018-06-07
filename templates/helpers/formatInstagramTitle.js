@@ -1,3 +1,3 @@
 module.exports = function(date) {
-  return `Photo from ${moment.utc(date).format('MMM DD, YYYY')}`;
+  return 'Photo from ' + moment.utc(date).format('MMM DD, YYYY')};
 }
