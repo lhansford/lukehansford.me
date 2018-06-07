@@ -1,0 +1,10 @@
+{{!< layout.hbs }}
+<ul class="c-photo-grid">
+	{{#each photos}}
+		<li>
+      <a href="/photos/{{ title }}/">
+        <img class="c-photo-grid__image" src="/photos/{{ title }}/{{ title }}.jpg" />
+      </a>
+    </li>
+	{{/each}}
+</ul>
