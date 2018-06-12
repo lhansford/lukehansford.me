@@ -30,7 +30,7 @@ p {
 
 
 .container {
-	width: 740px;
+	max-width: 740px;
 	margin: 50px auto;
 }
 
@@ -76,6 +76,7 @@ nav li {
 	display: inline;
 	font-size: 20px;
 	margin-right: 1em;
+	white-space: nowrap;
 }
 
 /* CONTENT */
@@ -208,6 +209,12 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	margin:0;
 	padding: 0;
+}
+
+@media (max-width: 800px) {
+	.c-photo-grid {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 .c-photo-grid a {
