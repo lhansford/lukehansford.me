@@ -11,6 +11,11 @@
 - `python -m SimpleHTTPServer`
 
 ## Updating
+- Push changes to git
+- Run `./update-remote.sh`
+
+OR
+
 - ssh into blog
 - cd /lukehansford.me
 - git pull
