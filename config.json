@@ -7,8 +7,8 @@
   },
   "plugins": [
     "./plugins/paginator.coffee",
-    "./plugins/projects.coffee",
     "./plugins/photos.coffee",
+    "./plugins/projects.coffee",
     "./plugins/wintersmith-handlebars.coffee"
   ],
   "require": {

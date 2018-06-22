@@ -4,7 +4,7 @@ module.exports = (env, callback) ->
     template: 'projects.hbs' # template that renders pages
     projects: 'projects' # directory containing contents to paginate
     first: 'projects.html' # filename/url for first page
-    filename: 'page/%d/index.html' # filename for rest of pages
+    filename: 'projects-index/%d/index.html' # filename for rest of pages
 
   # assign defaults any option not set in the config file
   options = {}
@@ -57,7 +57,7 @@ module.exports = (env, callback) ->
 
     # create the object that will be merged with the content tree (contents)
     # do _not_ modify the tree directly inside a generator, consider it read-only
-    rv = {pages: pages}
+    rv = {projects: pages}
     # callback with the generated contents
     callback null, rv
 

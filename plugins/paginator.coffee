@@ -7,7 +7,7 @@ module.exports = (env, callback) ->
     template: 'posts.hbs' # template that renders pages
     articles: 'articles' # directory containing contents to paginate
     first: 'posts.html' # filename/url for first page
-    filename: 'page/%d/index.html' # filename for rest of pages
+    filename: 'article-index/%d/index.html' # filename for rest of pages
     perPage: 2 # number of articles per page
 
   # assign defaults any option not set in the config file
