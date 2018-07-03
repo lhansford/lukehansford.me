@@ -1,5 +1,5 @@
 ---
-title: Song of the Day - 
+title: Song of the Day - Pilgrimage
 author: luke
 date: 2018-07-03 21:00
 template: post.hbs
