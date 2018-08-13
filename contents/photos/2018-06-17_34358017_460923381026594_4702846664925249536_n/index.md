@@ -1,11 +1,11 @@
 ---
 title: 2018-06-17_34358017_460923381026594_4702846664925249536_n
 file_name: 2018-06-17_34358017_460923381026594_4702846664925249536_n.jpg
-description: Crash bandicoot racing on a ps1. Classic gaming :)
-link: https://www.instagram.com/p/BmX8XT4BXaB
-thumbnail: https://instagram.fkul8-1.fna.fbcdn.net/vp/c13572b0647be93a86f990597890b8f4/5BFB43A3/t51.2885-15/sh0.08/e35/s640x640/38187993_1638538706275851_6297117282292203520_n.jpg?ig_cache_key=MTg0NDIwODA1NzExMTExNTM5Mw%3D%3D.2
-tags: 
+description: I'm about halfway through building this 808 snare circuit and definitely feeling like I bit off a little more than I could chew on the wiring front 😂 #synthdiy
+link: https://www.instagram.com/p/BkIHur_hzdj
+thumbnail: https://instagram.fkul14-1.fna.fbcdn.net/vp/304674c0cd6d9e223c235a4ba00b0ac8/5C0EDA90/t51.2885-15/sh0.08/e35/s640x640/34358017_460923381026594_4702846664925249536_n.jpg?ig_cache_key=MTgwMzcyNTY0NTQyMDExNTgxMQ%3D%3D.2
+tags: ["synthdiy"]
 author: luke
-date: 2018-08-12 09:39
+date: 2018-06-17 13:07
 template: photo.hbs
 ---

@@ -1,11 +1,11 @@
 ---
 title: 2018-06-26_35576021_239885803265113_4124844371549880320_n
 file_name: 2018-06-26_35576021_239885803265113_4124844371549880320_n.jpg
-description: Crash bandicoot racing on a ps1. Classic gaming :)
-link: https://www.instagram.com/p/BmX8XT4BXaB
-thumbnail: https://instagram.fkul8-1.fna.fbcdn.net/vp/c13572b0647be93a86f990597890b8f4/5BFB43A3/t51.2885-15/sh0.08/e35/s640x640/38187993_1638538706275851_6297117282292203520_n.jpg?ig_cache_key=MTg0NDIwODA1NzExMTExNTM5Mw%3D%3D.2
-tags: 
+description: Not doing so well :(
+link: https://www.instagram.com/p/Bkfk7RwB2Po
+thumbnail: https://instagram.fkul14-1.fna.fbcdn.net/vp/2a5d8ff992a3c6e69d467d46b63a3899/5C129E81/t51.2885-15/sh0.08/e35/s640x640/35576021_239885803265113_4124844371549880320_n.jpg?ig_cache_key=MTgxMDMyNzk3ODQwOTE1NzYwOA%3D%3D.2
+tags: []
 author: luke
-date: 2018-08-12 09:39
+date: 2018-06-26 15:45
 template: photo.hbs
 ---

@@ -1,11 +1,11 @@
 ---
 title: 2018-07-10_36148516_212719749381206_723744067170598912_n
 file_name: 2018-07-10_36148516_212719749381206_723744067170598912_n.jpg
-description: Crash bandicoot racing on a ps1. Classic gaming :)
-link: https://www.instagram.com/p/BmX8XT4BXaB
-thumbnail: https://instagram.fkul8-1.fna.fbcdn.net/vp/c13572b0647be93a86f990597890b8f4/5BFB43A3/t51.2885-15/sh0.08/e35/s640x640/38187993_1638538706275851_6297117282292203520_n.jpg?ig_cache_key=MTg0NDIwODA1NzExMTExNTM5Mw%3D%3D.2
-tags: 
+description: Getting ready to ship our stuff to Stockholm
+link: https://www.instagram.com/p/BlB-m14BXqq
+thumbnail: https://instagram.fkul14-1.fna.fbcdn.net/vp/ceddac9f70fe74a32993a0e55d8ab1b7/5BF00A43/t51.2885-15/sh0.08/e35/s640x640/36148516_212719749381206_723744067170598912_n.jpg?ig_cache_key=MTgyMDAxMTA3MjUwNjM5NTMwNg%3D%3D.2
+tags: []
 author: luke
-date: 2018-08-12 09:39
+date: 2018-07-10 00:24
 template: photo.hbs
 ---

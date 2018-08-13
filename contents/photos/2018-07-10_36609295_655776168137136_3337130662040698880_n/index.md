@@ -1,11 +1,11 @@
 ---
 title: 2018-07-10_36609295_655776168137136_3337130662040698880_n
 file_name: 2018-07-10_36609295_655776168137136_3337130662040698880_n.jpg
-description: Crash bandicoot racing on a ps1. Classic gaming :)
-link: https://www.instagram.com/p/BmX8XT4BXaB
-thumbnail: https://instagram.fkul8-1.fna.fbcdn.net/vp/c13572b0647be93a86f990597890b8f4/5BFB43A3/t51.2885-15/sh0.08/e35/s640x640/38187993_1638538706275851_6297117282292203520_n.jpg?ig_cache_key=MTg0NDIwODA1NzExMTExNTM5Mw%3D%3D.2
-tags: 
+description: And boxed
+link: https://www.instagram.com/p/BlCOEclBhqo
+thumbnail: https://instagram.fkul14-1.fna.fbcdn.net/vp/21a780af6d63f278a7ba802b6c7551b3/5C081B46/t51.2885-15/sh0.08/e35/s640x640/36609295_655776168137136_3337130662040698880_n.jpg?ig_cache_key=MTgyMDA3OTA3NzYyNjA5MjIwMA%3D%3D.2
+tags: []
 author: luke
-date: 2018-08-12 09:39
+date: 2018-07-10 02:39
 template: photo.hbs
 ---
