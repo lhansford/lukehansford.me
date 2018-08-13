@@ -9,5 +9,5 @@ module.exports = function(fileName) {
       return this.substring(this_len - search.length, this_len) === search;
     };
   }
-  return fileName.endsWith('.jpg');
+  return !fileName.endsWith('.mp4');
 }
