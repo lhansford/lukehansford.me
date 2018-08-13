@@ -3,7 +3,7 @@ title: 2018-07-18_36626889_229069914482666_6511124675039330304_n
 file_name: 2018-07-18_36626889_229069914482666_6511124675039330304_n.jpg
 description: Finally got to the Singapore zoo, just days before we leave!
 link: https://www.instagram.com/p/BlXg8VoBW62
-thumbnail: /photos/${title}/${file_name}
+thumbnail: /photos/2018-07-18_36626889_229069914482666_6511124675039330304_n/2018-07-18_36626889_229069914482666_6511124675039330304_n.jpg
 tags: 
 author: luke
 date: 2018-07-18 09:08
