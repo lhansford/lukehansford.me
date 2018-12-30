@@ -1,0 +1,11 @@
+---
+title: 2018-07-18_37320299_276724003081303_2621878655240914317_n
+file_name: 2018-07-18_37320299_276724003081303_2621878655240914317_n.mp4
+description: Finally got to the Singapore zoo, just days before we leave!
+link: https://www.instagram.com/p/BlXg8VoBW62
+thumbnail: /photos/2018-07-18_37320299_276724003081303_2621878655240914317_n/2018-07-18_37320299_276724003081303_2621878655240914317_n.mp4
+tags: 
+author: luke
+date: 2018-07-18 09:08
+template: video.hbs
+---
