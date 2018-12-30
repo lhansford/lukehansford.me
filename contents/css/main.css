@@ -128,7 +128,8 @@ nav li {
 	display: block;
 }
 
-.blog-post img {
+.blog-post img,
+.blog-post video {
 	max-width: 80%;
 	display: block;
 	margin: 1em auto;
