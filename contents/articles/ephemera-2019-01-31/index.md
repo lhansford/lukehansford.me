@@ -1,7 +1,7 @@
 ---
 title: Ephemera - 1st February, 2018
 author: luke
-date: 2018-02-01 15:00
+date: 2019-02-01 15:00
 template: post.hbs
 ---
 ## Reading
