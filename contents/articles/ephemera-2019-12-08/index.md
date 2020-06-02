@@ -4,8 +4,6 @@ author: luke
 date: 2019-12-08 15:00
 template: post.hbs
 ---
-Intro
-
 I've been a little sporadic with these posts this year. Maybe next year I can be more consistent...or
 maybe not.
 
