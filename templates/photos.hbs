@@ -3,11 +3,7 @@
 	{{#each photos}}
 		<li>
       <a href="/photos/{{ title }}/">
-        {{#if (isImage this.metadata.thumbnail)}}
-          <img class="c-photo-grid__image" src="{{ this.metadata.thumbnail }}" />
-        {{else}}
-          <video class="c-photo-grid__image" src="{{ this.metadata.thumbnail }}"></video>
-        {{/if}}
+        <img class="c-photo-grid__image" src="{{ this.metadata.thumbnail }}" />
       </a>
     </li>
 	{{/each}}

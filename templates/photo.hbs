@@ -5,8 +5,12 @@
     <time class="dt-published" datetime="{{formatDateHTML page.date}}">{{formatDate page.date}}</time>
   </div>
   <div class="e-content">
-    <p>{{ page.metadata.description }}<br/>{{formatTags page.metadata.tags}}</p>
-    <img src="/photos/{{ page.title }}/{{ page.title }}.jpg" />
+    <p>{{ page.metadata.description }}</p>
+
+    {{#parseInstagramPhotos}}
+      <img src="{{this}}" />
+    {{/parseInstagramPhotos}}
+
     <p><a href="{{ page.metadata.link }}" target="_blank">Original post</a></p>
   </div>
 </article>
