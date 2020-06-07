@@ -1,0 +1,16 @@
+.name {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.location {
+  margin: 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+.sourceCode {
+  text-align: center;
+  font-size: 10px;
+}
