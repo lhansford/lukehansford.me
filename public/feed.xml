@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Luke Hansford</title>
+        <link>http://lukehansford.me</link>
+        <description>Experiments and notes from Luke Hansford.</description>
+        <lastBuildDate>Sat, 13 Jun 2020 10:57:52 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>All rights reserved 2020, Luke Hansford</copyright>
+        <item>
+            <title><![CDATA[Big Muff Eurorack Conversion, Pt. 1]]></title>
+            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-1/</link>
+            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-1/</guid>
+            <pubDate>Tue, 16 Jan 2018 22:13:00 GMT</pubDate>
+            <description><![CDATA[<p><em>First up, a caution: this is my first non-guided DIY modular synth project and I'm probably do any number 
+of things incorrectly, so take all of this with a grain of salt.</em></p>
+<p>Last year I bought a Swollen Pickle pedal to replace my ailing old Russian Big Muff. I probably could have gotten 
+the Big Muff repaired, but I was kind of keen to try something new. Not wanting to let it go to waste though, 
+and also with the hope of adding a bit more colour to my Eurorack setup, I've decided to have a go at converting 
+the Big Muff to something that can be used in a Eurorack system.</p>
+<p>This will mean doing the following:</p>
+<ul>
+<li>Changing the inputs from the 6.35mm inputs used by guitars to the 3.5mm ones used in Eurorack.</li>
+<li>Replacing the potentiometers (not really needed for the conversion, but needed to fix my old Big Muff).</li>
+<li>Replacing the foot switch with something more comfortable to use by hand.</li>
+<li>Converting the pedal to run off a Eurorack power supply.</li>
+</ul>
+<p>With some possible further additions being:</p>
+<ul>
+<li>Changing the signal levels to play nicer with synth levels (I'm not certain that this will be necessary).</li>
+<li>Adding CV to the tone and sustain knobs (and maybe the volume knob).</li>
+<li>Adding dry/wet control.</li>
+</ul>
+<h2 id="replacingthejacks">Replacing the Jacks</h2>
+<p><img src="https://i.imgur.com/nLKKHHF.jpg" alt="Starting position" /></p>
+<p>My first step was to change the 6.35mm jacks for 3.5mm ones. This turned out to be a much easier process 
+than I expected. First I removed the enclosure (which required hooking up a new LED as the original LED 
+is actually embedded into the pedal case), followed by desoldering the old jacks (which I'll definitely be keeping
+as they seem pretty solid).</p>
+<p><img src="https://i.imgur.com/rW8qIAh.jpg" alt="After desoldering the first jack" /></p>
+<p>The jacks on the Big Muff originally came out the back of the case, however as I'm going to need them to be on the front panel I 
+soldered them on with a bit of connecting wire (I haven't yet decided where they'll be positioned on the front panel).</p>
+<p><img src="https://i.imgur.com/QMLoSkQ.jpg" alt="First jack soldered on" /></p>
+<p>You'll notice two differences between the jacks I soldered on. First is that I soldered the first one on the wrong side of 
+the panel! I'm hoping it won't be too much of a hassle in the future, but if it is then it's pretty easy to fix anyway. The other difference is the extra wire coming off the second jack (the input jack). This connection is important for triggering the LED on 
+when a cable is plugged in, so make sure to get that one in if you're following along at home.</p>
+<p><img src="https://i.imgur.com/pECMryD.jpg" alt="Second jack soldered" /></p>
+<p>Amazingly it worked right off the bat! Well kind of - even prior to opening it up my Big Muff can barely have been considered to 
+have been "working right". So my next task is to rectify that and return it to its original distorted glory.</p>
+<p><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-2/">Next step, changing the potentiometers.</a>;</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Big Muff Eurorack Conversion, Pt. 2]]></title>
+            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-2/</link>
+            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-2/</guid>
+            <pubDate>Sat, 20 Jan 2018 22:13:00 GMT</pubDate>
+            <description><![CDATA[<p><em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-1/">Check out part one first!</a></em></p>
+<h2 id="newpotentiometers">New Potentiometers</h2>
+<p><img src="https://i.imgur.com/T4oexNa.jpg" alt="New pots" /></p>
+<p>The reason for my Big Muff not being used in the first place was the real old potentiometers making a lot 
+of unneeded noise when using it. Unfortunately replacement pots of the same size are really hard to come 
+by. Instead I decided to use the standard size pots (you can see the difference in the pic above) and just 
+make the panel holes bigger to accommodate them.</p>
+<p><img src="https://i.imgur.com/tFJoQKY.jpg" alt="First pot replaced" /></p>
+<p>Replacing the pots was simple enough - cut the wires, solder on the new ones, done.</p>
+<p><img src="https://i.imgur.com/KHGZwn4.jpg" alt="https://imgur.com/KHGZwn4" /></p>
+<p>The only outlier was that yellow wire - I have no idea what it's supposed to connect too! Regardless, 
+it worked out fine. Check out the crunchy results in the clip below.</p>
+<div class="iframe-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Po1nA8cZj4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<p><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-3/">Part 3: Changing the switch and connecting to a Eurorack power supply</a>;</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Big Muff Eurorack Conversion, Pt. 3]]></title>
+            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-3/</link>
+            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-3/</guid>
+            <pubDate>Sun, 04 Feb 2018 11:50:00 GMT</pubDate>
+            <description><![CDATA[<p><em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-1/">Part One</a></em>
+<em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-2/">Part Two</a></em></p>
+<h2 id="switchingtheswitchconvertingthepowertoeurorackformat">Switching the switch / Converting the power to Eurorack format</h2>
+<p><img src="https://i.imgur.com/lfKEt4B.jpg" alt="The new switch" /></p>
+<p>Foot switches are, understandably, a little hard to press down. They're built to withstand the unsubtle 
+kicks of a guitarist in motion, but applying that much pressure to the Big Muff as it sits in my Eurorack case 
+make me worry it'll do damage to the case (doubly so as my case is made out of cardboard!).</p>
+<p>So the next task in my Big Muff Eurorack conversion was to replace the foot switch with a toggle switch. The 
+original switch was a 3PDT switch (a less common variation of switch, but one that allows for proper signal bypass), 
+so it was just a matter of tracking down a 3PDT toggle switch (<a href="https://www.aliexpress.com/item/MYLB-AC-250V-2A-125V-5A-ON-ON-2-Position-3PDT-Toggle-Switch/32746132468.html">I used these ones</a>) and switching over the wires.</p>
+<p><img src="https://i.imgur.com/IynmfWK.jpg" alt="Not quite right" /></p>
+<p>As you can see, it technically worked, but I forgot to account for the size of the hole in the panel. My current 
+hack solution is to duct tape it in while I think of a more long-term fix.</p>
+<p><img src="https://i.imgur.com/VnUhfmB.jpg" alt="The step-down circuit prior to soldering" /></p>
+<p>My next step was to get the pedal running off my eurorack case's power supply. This involved adding a 
+shrouded 10-pin header for connecting to the power bus board, and then adding a circuit to drop the 12v power 
+provided by the case's power supply down to the 9v level expected by the Big Muff.</p>
+<p><img src="https://i.imgur.com/pIpXr2j.jpg" alt="The step-down circuit post soldering and attaching to the PCB" /></p>
+<p>The circuit utilises an LM7809 component to drop the voltage down to 9v, and is based on some of the 
+talk in <a href="https://www.muffwiggler.com/forum/viewtopic.php?t=115780">this thread over at Muff Wiggler</a>. 
+I soldered the components on to some perfboard and attached that to the Big Muff's PCB using a 
+standoff. It's a bit wobbly, and the whole board is just hanging from wires attached to the front panel, 
+but for now its doing the trick. My next goal is to add CV to the tone and sustain potentiometers (possibly 
+volume as well, though I'm not certain yet).</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[DRY Unit Tests in Javascript]]></title>
+            <link>http://lukehansford.me/articles/dry-unit-tests-in-javascript/</link>
+            <guid>http://lukehansford.me/articles/dry-unit-tests-in-javascript/</guid>
+            <pubDate>Tue, 02 Jun 2020 09:00:00 GMT</pubDate>
+            <description><![CDATA[<p>A couple of years ago I started working with a Ruby on Rails codebase and was stunned
+by how more well thought out the test were in comparison to Javascript codebases I'd worked with. In
+particular I loved that the axiom of DRY (Don't Repeat Yourself) applied to testing - something that
+seems obvious to do in hindsight.</p>
+<p>Over time I've been picking up the parts of Ruby testing that I found particular useful and applying
+them to JS testing. A common pattern I run into is having to test a basic functionality that might
+apply across a whole category of component or function types. This post is going to show a small of
+example of how we can do this in Javascript.</p>
+<p>Let's start with a non-DRY test. The following test suite is for a BlogPost component, and we want
+to test that it has HTML metadata (i.e. a title and a description). For this example we're using <a href="https://jestjs.io/">Jest</a> and
+<a href="https://testing-library.com/docs/react-testing-library/intro">React Testing Libary</a>, but the concept
+should be applicable to whichever testing framework you use.</p>
+<pre><code class="javascript language-javascript">  import { render } from '@testing-library/react';
+
+  describe('BlogPost' , () =&gt; {
+    render(&lt;BlogPost /&gt;);
+
+    it('Renders metadata', () =&gt; {
+      expect(document.title).toEqual(title);
+      expect(document.querySelector("meta[name='description']")).toHaveAttribute(
+        'content',
+        description,
+      );
+    });
+  });
+</code></pre>
+<p>If our app has other pages, then HTML metadata is probably a useful thing to test for on those as
+well. Making our test reusable is as simple as moving it to it's own function that accepts as arguments
+the values we want to test for.</p>
+<pre><code class="javascript language-javascript">  import { render } from '@testing-library/react';
+
+  function itHasMetadata({ title, description }) {
+    it('Renders metatags', () =&gt; {
+      expect(document.title).toEqual(title);
+      expect(document.querySelector("meta[name='description']")).toHaveAttribute(
+        'content',
+        description,
+      );
+    });
+  }
+
+  describe('BlogPost' , () =&gt; {
+    render(&lt;BlogPost /&gt;);
+
+    itHasMetadata({ title: 'Blog', description: 'Some description' });
+  });
+
+  describe('Homepage' , () =&gt; {
+    render(&lt;Homepage /&gt;);
+
+    itHasMetadata({ title: 'Home', description: 'Some description' });
+  });
+</code></pre>
+<p>Our metadata test is now DRY! Refactoring our test like this also allows us to compose them.
+Let's say our <code>BlogPost</code> and <code>Homepage</code> components share multiple similar tests - we can roll them
+into one function that applies thoses tests together.</p>
+<pre><code class="javascript language-javascript">  export function itBehavesLikeAPage(title, description, url) {
+    itHasMetadata(metadata);
+    itHasAHeading();
+    itHasACanonicalUrl();
+  }
+
+  describe('BlogPost' , () =&gt; {
+    render(&lt;BlogPost /&gt;);
+
+    itBehavesLikeAPage({ title: 'Blog', description: '...' });
+  });
+
+  describe('HomePage' , () =&gt; {
+    render(&lt;Homepage /&gt;);
+
+    itBehavesLikeAPage({ title: 'Home', description: '...' });
+  });
+</code></pre>
+<p>One added benefit of writing our tests in this way is that it makes jumping into Test Driven
+Development (TDD) a lot easier. I personally gain a lot from doing TDD, but I often find myself
+skipping past the tests because I just want to get my hands dirty coding a solution instead of
+spending the time writing a new test. But when writing that test is as simple as importing my
+reusable test I don't have any excuse not to do proper TDD!</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 23rd November, 2014]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2014-11-23/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2014-11-23/</guid>
+            <pubDate>Sun, 23 Nov 2014 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This the first of (hopefully) many weekly roundups of the content I consume.
+While I'm pleased to share this, I'm also starting to become more interested in
+storing my activities so I can recall them long into the future. This is one way
+of doing that.</p>
+<p><span class="more"></span></p>
+<h2 id="reading">Reading</h2>
+<h3 id="theriseoftheprofessionalcyberathletehttpwwwnewyorkercommagazine20141124goodgame"><a href="http://www.newyorker.com/magazine/2014/11/24/good-game">The Rise of the Professional Cyber Athlete</a></h3>
+<p>A nice long article on pro-gaming from the New Yorker. A really nuanced take on
+the subject (I think, my gaming skills are less than leet).</p>
+<h3 id="aprintmagazineforhackershttpwwwnewyorkercomtechelementsprintmagazinehackers"><a href="http://www.newyorker.com/tech/elements/print-magazine-hackers">A Print Magazine for Hackers</a></h3>
+<p>Another techy article from the New Yorker, this time profiling the hacker magazine/bible, 2600.</p>
+<h3 id="whatpapersshouldidefinitelyreadasacomputerscienceundergraduatehttpwwwredditcomrlearnprogrammingcomments2jzjh7what_papers_should_i_definitely_read_as_a"><a href="http://www.reddit.com/r/learnprogramming/comments/2jzjh7/what_papers_should_i_definitely_read_as_a/">What papers should I definitely read as a computer science undergraduate?</a></h3>
+<p>A reddit question that keeps on giving. As a computer science student this is
+an invaluable resource.</p>
+<h3 id="mollycrabapples15rulesforcreativesuccessintheinternetagehttpboingboingnet20141104mollycrabapplesrulesforchtml"><a href="http://boingboing.net/2014/11/04/molly-crabapples-rules-for-c.html">Molly Crabapple's 15 rules for creative success in the Internet age</a></h3>
+<p>I can't get more descriptive than the article's title. Artist Molly Crabapple gives
+some tips that are pretty spot on. I wish I'd had something like this before I started
+traversing the music industry.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="theflash">The Flash</h3>
+<p>My brother had been urging me to get into
+<a href="http://www.imdb.com/title/tt2193021/">Arrow</a> for a while, and I finally got
+the chance to while flying to Singapore last week. Cue intense binge watching
+and the search for more. More came in the form of another superhero show based
+in the same DC universe - <a href="http://www.imdb.com/title/tt3107288/">The Flash</a>.
+The whole concept of the Flash as a superhero felt a little lacking to me at
+first, but I've been pleasantly
+surprised at how well the creators have done on this show. It switches Arrow's
+constant brooding for a bit more humour and some really excellent special
+effects, while keeping the better bits such as the flashback stories.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="parquetcourtscontentnausea">Parquet Courts - Content Nausea</h3>
+<p>The latest release from Parquet Courts, <a href="https://play.google.com/music/m/Bxrpgmypli632vdxvrg6sx2fec4">Content Nausea</a> has the usual
+balance of raucousness and hooks I've come to expect from the Texan band. The title
+track is particularly good.</p>
+<h3 id="fugazifirstdemo">Fugazi - First Demo</h3>
+<p>I don't usually truck with demoes, outtakes, and the like. Music is a craft and
+releasing half finished work is anathema to me. Having said that, I was surprised
+at how enjoyable it was to listen to <a href="https://play.google.com/music/m/Bmvwiwr2flzwnxdvh4k7indgeze">First Demo</a>.
+Fugazi are one of my favourite bands, and to hear them in action before they'd
+nailed down their sound is intriguing. The songs are still great, but the
+trainspotting to be done here for Fugazi fans is the selling point.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 7th December, 2014]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2014-12-07/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2014-12-07/</guid>
+            <pubDate>Sun, 07 Dec 2014 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Well this undertaking has not been as weekly as I would have liked. To try to make up for that, this entry covers two weeks of reading and listening (I watched things, but nothing special enough to recommend).</p>
+<h2 id="reading">Reading</h2>
+<h3 id="newatheismoldempirebylukesavagejacobinhttpswwwjacobinmagcom201412newatheismoldempire"><a href="https://www.jacobinmag.com/2014/12/new-atheism-old-empire/">New Atheism, Old Empire by Luke Savage - <em>Jacobin</em></a></h3>
+<p>As an atheist, I was attracted to Richard Dawkins' <em>The God Delusion</em> when it was released.
+I picked it up but couldn't get through it. There was something about it that was, ironically, "holier than thou" when it came to addressing religion - the key trait that put me off organised religion in the first place. Luke Savage addresses this and the inherent racism/islamophobia present in some of the key works of the New Atheism movement.</p>
+<p>To me, the best way to further the atheist movement is to make it a more attractive option, not to try and tear down its competitors (a tactic that will often come off as petty). I'm sure there are writers out there that achieve this, but I don't know of any off the top of my head. If you have a recommendation in this regard, I'd love to hear it! In the mean time I'll keep reading the fantastic <em>Jacobin</em>.</p>
+<p>Also related:</p>
+<blockquote class="twitter-tweet" lang="en"><p>Could be the Best Cartoon Ever <a href="http://t.co/T4uE2sx6Xn">pic.twitter.com/T4uE2sx6Xn</a></p>&mdash; ian bremmer (@ianbremmer) <a href="https://twitter.com/ianbremmer/status/539467697411883011">December 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="becausereadingisfundementalbyjeffatwoodcodinghorrorhttpblogcodinghorrorcombecausereadingisfundamental2"><a href="http://blog.codinghorror.com/because-reading-is-fundamental-2/">Because Reading is Fundemental by Jeff Atwood - <em>Coding Horror</em></a></h3>
+<p>Jeff Atwood, a.k.a <em>Coding Horror</em>, is the best there is when it comes to analysing and building for online communities. For proof look no further than the (Stack Exchange)[www.stackexchange.com] network he founded. In this article he argues for changing the metric for good online commenters from number of comments to time spent reading, or at the very least incentivising people to spend more time reading before posting.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="rustiegreenlanguagehttpsplaygooglecomstoremusicalbumrustie_green_languageidbcvjixyaj4luml2n6nuweojvrd4"><a href="https://play.google.com/store/music/album/Rustie_Green_Language?id=Bcvjixyaj4luml2n6nuweojvrd4">Rustie - Green Language</a></h3>
+<p>I was listening to this a lot when it first came out in August, but I'm also listening to it now while writing this blog post, so I figured a recommendation was in order. I love electronic music, but I there's no way I'll ever be able to keep up with the ever proliferating array of subgenres. I think Rustie is considered <em>Maximalist Dubstep</em>. Influences are present - I personally hear Air, 808 State, The Bug, and Skream, among others - but rather than taking small aspects of each, Rustie takes the whole thing and melds them together to create a sound that is big, but alway coherent.</p>
+<h3 id="startuppodcasthttpgimletmediacom"><a href="http://gimletmedia.com/">Startup Podcast</a></h3>
+<p>I'd been hearing about the Startup podcast for a while now. The premise, a podcast detailing the creating of a podcast network, was intriguing to me. I'm currently a dozen episode into <a href="http://frequency.asia">my own podcast</a>, and harbour secret/evil dreams of transforming it into a network of podcasts in the vein of Radiotopia or 5by5. But I was hesitant to add another podcast to my already overly large regime. One day I'm going to have more podcasts then time to listen to them.</p>
+<p>I eventually gave in, and it was well worth. Alex Blumberg is extremely candid and transparent in his coverage of the creation of Gimlet Media. While the creation of a new media network is the core topic, the podcast veers into areas such as startup culture, the creative process, and the feelings and thoughts of people taking great leaps of faith. Not only have I added this podcast to the myriad of others I listen to, if the other podcasts they plan on releasing are of this quality then I'm definitely going to be listening to them too. Crap.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 14th December, 2014]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2014-12-14/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2014-12-14/</guid>
+            <pubDate>Sun, 14 Dec 2014 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Short and sweet as I'm going to Vietnam in a few hours. I most likely won't be able to post anything for two weeks, so you'll have to subsist on end of year lists in the mean time.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="thenewrepublicanappreciationbytanehisicoatestheatlantichttpwwwtheatlanticcompoliticsarchive201412thenewrepublicanappreciation383561"><a href="http://www.theatlantic.com/politics/archive/2014/12/the-new-republic-an-appreciation/383561/">The New Republic: An Appreciation by Ta-Nehisi Coates - <em>The Atlantic</em></a></h3>
+<p>I've only ever read New Republic articles here and there, so I wouldn't say that I'm effected by the troubles occurring with the publication these days. I'm even less troubled having read the ever brilliant Coates' skewering of the magazine and its record in regards to race.</p>
+<h3 id="qassemsuleimanibymartinchulovtheguardianhttpwwwtheguardiancomtheobserver2014dec07qassemsuleimanimiddleeastmastermindislamicstate"><a href="http://www.theguardian.com/theobserver/2014/dec/07/qassem-suleimani-middle-east-mastermind-islamic-state">Qassem Suleimani by Martin Chulov - <em>The Guardian</em></a></h3>
+<p>A great profile on the leader of Iranian military efforts in the Middle East. I feel that it's rare to see articles in mainstream publications that address the realpolitik involved in the region and not collapse into apocalyptic rhetoric.</p>
+<h3 id="inconversationwithchrisrockbyfrankrichvulturehttpwwwvulturecom201411chrisrockfrankrichinconversationhtml"><a href="http://www.vulture.com/2014/11/chris-rock-frank-rich-in-conversation.html">In Conversation With Chris Rock by Frank Rich - <em>Vulture</em></a></h3>
+<p>An impressive interview with an impressive man.</p>
+<h2 id="viewing">Viewing</h2>
+<h3 id="xkcd1411httpxkcdcom1411"><a href="http://xkcd.com/1411/">XKCD 1411</a></h3>
+<p>The story of my life.</p>
+<p><img src="http://imgs.xkcd.com/comics/loop.png" alt="XKCD 1411" title="XKCD 1411" /></p>
+<h3 id="supernormalstimulibystuartmcmillenhttpwwwstuartmcmillencomcomics_ensupernormalstimuli"><a href="http://www.stuartmcmillen.com/comics_en/supernormal-stimuli/">Supernormal Stimuli by Stuart McMillen</a></h3>
+<p>Just a nice comic reminding me that I have a lizard brain sometimes.</p>
+<h3 id="2014theyearinphotosseptemberdecemberbyalantaylortheatlantichttpwwwtheatlanticcominfocus2014122014theyearinphotosseptemberdecember100870"><a href="http://www.theatlantic.com/infocus/2014/12/2014-the-year-in-photos-september-december/100870/">2014: The Year in Photos, September-December by Alan Taylor - <em>The Atlantic</em></a></h3>
+<p>Part 3 in a round up of photos from 2014. It's good to have such a vivid refresher on what happened in the last 12 months.</p>
+<p><img src="http://cdn.theatlantic.com/static/infocus/yip121014/s_y18_57212566.jpg" alt="Protest in Hong Kong" title="Protests in Hong Kong" /></p>
+<h2 id="listening">Listening</h2>
+<h3 id="thepodcastmethodhttppodcastmethodco"><a href="http://podcastmethod.co/">The Podcast Method</a></h3>
+<p>Dan Benjamin of 5by5 has just started a new podcast about how to podcast. Meta. I'm 13 episdoes in to my own podcast, <a href="http://frequency.asia">Frequency Asia</a>, so I'm finding it fantastically useful so far.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 4th January, 2015]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2015-01-04/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2015-01-04/</guid>
+            <pubDate>Sun, 04 Jan 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>There hasn't been a lot of new things to see, read, or hear in the last few weeks, being the holiday season and all. Here is what I scrounged up.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="themartianbyandyweir">The Martian by Andy Weir</h3>
+<p>This self-published novel is possibly the best book I read in 2014. I had just
+finished up Kim Stanley Robinson's Mars Trilogy, which were also excellent reads,
+and was lucky to have The Martian waiting next to keep my Mars bender going. Andy
+Weir takes the Robinson Crusoe trope and realistically applies it to an astronaut
+on Mars. Not only does Weir make it a believable conceit, he manages to make it
+ a compelling read too.</p>
+<h3 id="thetragedyoftheamericanmilitarybyjamesfallowstheatlantichttpwwwtheatlanticcomfeaturesarchive201412thetragedyoftheamericanmilitary383516"><a href="http://www.theatlantic.com/features/archive/2014/12/the-tragedy-of-the-american-military/383516/">The Tragedy of the American Military by James Fallows - <em>The Atlantic</em></a></h3>
+<p>I'll read anything by James Fallows, but a screed on the role of the armed forces
+in American society and how a public and political disconnect with them has led to
+rampant militarism? Sign me up.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="webuiltadronebygregormaclennandigitaldemocracyhttpwwwdigitaldemocracyorgblogwebuiltadrone"><a href="http://www.digital-democracy.org/blog/we-built-a-drone/">We Built A Drone by Gregor MacLennan - <em>Digital Democracy</em></a></h3>
+<p>Using drones to empower citizens in indigenous communities in Guyana. It's nice to
+have this as a counterpoint to the use of drones for warfare.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 1st February, 2015]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2015-02-01/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2015-02-01/</guid>
+            <pubDate>Sun, 01 Feb 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I've been letting this slide for the last few weeks, so time for a roundup of what I've been consuming and enjoying .</p>
+<h2 id="reading">Reading</h2>
+<h3 id="tenyearsofpodcastingfightinghumannaturebymatthaugheyhttpsmediumcomtechnologymusingstenyearsofpodcastingfightinghumannature1bf2de96d6e4"><a href="https://medium.com/technology-musings/ten-years-of-podcasting-fighting-human-nature-1bf2de96d6e4">Ten Years of Podcasting: Fighting Human Nature by Matt Haughey</a></h3>
+<p>Great commentary on the state of podcasting a decade in. Matt Haughey has a number of suggestions
+for how we can improve the technological aspects or podcasts, most of which I, as a podcaster,
+completely agree with. My hope is that we start to see some of these appear soon. Haughey
+also wrote a nice follow up article to this one, so give that a go to.</p>
+<h3 id="theyearsofriceandsaltbykimstanleyrobinson">The Years of Rice and Salt by Kim Stanley Robinson</h3>
+<p>Alternate history is not usually in my wheelhouse (actual history is compelling
+enough for me), but Robinson's epic tale of a world where Europe is wiped out by
+the Black Plague is much more than your standard alternate history novel. With
+the Buddhist concept of reincarnation at its core, <em>The Years of Rice and Salt</em>
+follows a number of characters through different reincarnations over the centuries.
+Each life allows Robinson to play with the form of his writing and inject cutting
+social, religious, and political commentary into the story, making for a enjoyable,
+if difficult at times, read.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="twerpsrangeanxiety">Twerps - Range Anxiety</h3>
+<p>Labelled dolecore by some commentators, Twerps to me are tapping in to a uniquely antipodean vein of music with forbearers in
+the Go-Betweens or the Dunedin bands of the 1980s. Range Anxiety is a really strong
+second album from this Melbourne band, and while I've only had it a day or two I
+wholeheartedly recommend it.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 15th January, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-01-15/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-01-15/</guid>
+            <pubDate>Mon, 15 Jan 2018 22:00:00 GMT</pubDate>
+            <description><![CDATA[<p>It's been a while since I've done an entry here. I'm going to start dipping a toe back into 
+blogging, beginning with writing these old weekly round-ups! I doubt anyone is reading at the moment, 
+but it's a nice little thing to do for posterity's sake.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="the25bestreissuesandretrospectivesof2017httpwwwfactmagcom20171210bestreissues2017"><a href="http://www.factmag.com/2017/12/10/best-reissues-2017/">The 25 best reissues and retrospectives of 2017</a></h3>
+<p>January is always reserved for listening to year ends lists for me, and the Factmag ones this year are killer. 
+Top picks from this list for me are Midori Takada's <em>Through The Looking Glass</em>, Metro Area's self-titled release, 
+and number one pick <em>Noir Et Blanc</em>.</p>
+<h3 id="makeanalogsynthesizershttpswwwamazoncommakeanalogsynthesizerselectronicsynthdiydp1449345220"><a href="https://www.amazon.com/Make-Analog-Synthesizers-Electronic-Synth-DIY/dp/1449345220">Make: Analog Synthesizers</a></h3>
+<p>I've been picking up some DIY electronics skills over the last few months, and I've decided to dive into 
+building my own synthesizer with this book as a guide. I'm still waiting on the parts to arrive so I 
+can get started, but in the meantime it's a wonderful introduction into the inner workings of an electronic instrument.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 29th January, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-01-29/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-01-29/</guid>
+            <pubDate>Mon, 29 Jan 2018 09:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="theline6dl4isquietlythemostimportantguitarpedalofthelast20yearshttpspitchforkcomthepitchtheline6dl4isquietlythemostimportantguitarpedalofthelast20years"><a href="https://pitchfork.com/thepitch/the-line-6-dl4-is-quietly-the-most-important-guitar-pedal-of-the-last-20-years/">The Line 6 DL4 Is Quietly the Most Important Guitar Pedal of the Last 20 Years</a></h3>
+<p>A really interesting article on a guitar pedal I always dismissed as plastic trash. For some reason Line6
+products have always put me off, but apparently a lot of my favourite artists knew better. Battles have used over a dozen of them!</p>
+<h3 id="onbeinganengineeringmanagerhttpcodepleaseio20180115onbeinganengineeringmanager"><a href="http://codeplease.io/2018/01/15/on-being-an-engineering-manager/">On being an Engineering Manager</a></h3>
+<p>I'm not quite an engineering manager - being one member of a team of two makes that a little hard - however over the last year I have been transitioning into a role that includes certain responsibilities that an engineering manager would need to take on. Rui Peres has also been making that transition and he gives some nice insights into the trials and tribulations that can pop up.</p>
+<h3 id="therealfutureofworkhttpswwwpoliticocommagazinestory20180104futureworkindependentcontractorsalternativeworkarrangements216212"><a href="https://www.politico.com/magazine/story/2018/01/04/future-work-independent-contractors-alternative-work-arrangements-216212">The Real Future of Work</a></h3>
+<p>This article makes the argument that the gig economy is just another step in the ongoing erosion of 
+worker's rights and is in itself nothing particularly new. An in-depth look into an issue that is 
+likely going to be one of the defining social changes of the 21st century.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="whywebleeppodcast001tomwhitwellhttpswwwyoutubecomwatchvn18ro8nxxi4"><a href="https://www.youtube.com/watch?v=N18ro8nxXI4">Why We Bleep Podcast 001: Tom Whitwell</a></h3>
+<p>Oh yes! Mylar Melodies, one of my favourite synth YouTubers, has just started a long-form 
+interview series talking to the people behind electronic instruments. The first episode features the 
+wonderful Tom Whitwell aka Music Thing Modular.</p>
+<h3 id="howtomakeaeurorackmodulehttpswwwyoutubecomwatchv0fwpu4bjrm4t13s"><a href="https://www.youtube.com/watch?v=0fWPu4BjRM4&t=13s">How to Make a Eurorack Module</a></h3>
+<p>Another one from the Mylar Melodies YouTube channel, though this one is just a recording of a talk 
+given by James Carruthers of NoBots. The talk walks through the process of designing and shipping a 
+Eurorack module and I think it may have planted a seed in me to do one myself some day.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 5th February, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-02-05/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-02-05/</guid>
+            <pubDate>Mon, 05 Feb 2018 09:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="howireviewcodehttpsengineeringtumblrcompost170040992289howireviewcode"><a href="https://engineering.tumblr.com/post/170040992289/how-i-review-code">How I review code</a></h3>
+<p>A Tumblr engineer walks through his process for code reviews. I found this pretty instructive as I'm 
+currently in the middle of trying to come to grips with formalising code reviews in my own company.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="labratxlmiceorcyborg">Lab Rat XL ‎- Mice Or Cyborg</h3>
+<p>This 2003 album just got a re-release and I've been listening to it all week while coding. Lab Rat XL
+was a side project of Detroit Techno legends Drexciya, and this release was one of their last before the 
+passing of James Stinson, one half of the duo. The tracks slot in nicely to the Drexciya ouvre of minimal-ish 
+afrofuturist techno.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 12th February, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-02-12/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-02-12/</guid>
+            <pubDate>Mon, 12 Feb 2018 16:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="theriseofchinaandthefallofthefreetrademythhttpswwwnytimescom20180207magazinetheriseofchinaandthefallofthefreetrademythhtml"><a href="https://www.nytimes.com/2018/02/07/magazine/the-rise-of-china-and-the-fall-of-the-free-trade-myth.html">The Rise of China and the Fall of the ‘Free Trade’ Myth</a></h3>
+<p>Pankaj Mishra is an author I always love to read so it was nice to stumble upon this NY Times Magazine
+article from him. It's a divisive but intriguing take on the economic rise of the great nations. From my
+on the ground experience in China I feel like he might be paving over some of the more free-wheeling capitalistic
+tendencies that can be found in China at the moment or in the last two decades, but in general I'd agree with 
+his main assertions.</p>
+<h3 id="principlesofadultbehaviourhttpsgistgithubcomhernamesbarbarac647b18411157205edffcb94db0bcea8"><a href="https://gist.github.com/hernamesbarbara/c647b18411157205edffcb94db0bcea8">Principles of Adult Behaviour</a></h3>
+<p>With the passing this week of John Perry Barlow, this list of "life lessons" seemed quite apt.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="alteredcarbonhttpswwwnetflixcomtitle80097140"><a href="https://www.netflix.com/title/80097140">Altered Carbon</a></h3>
+<p>Damn this show was awesome. The story is a little weak at some points, but they absolutely
+nailed the cyber-punk aesthetic and the acting is pretty top notch all around. Highly recommended.</p>
+<h3 id="eevblog186solderingtutorialpart3surfacemounthttpswwwyoutubecomwatchvb9fc9falfqeappdesktop"><a href="https://www.youtube.com/watch?v=b9FC9fAlfQE&app=desktop">EEVblog #186 - Soldering Tutorial Part 3 - Surface Mount</a></h3>
+<p>Just a great video on how to surface mount solder. I've got a Hot Air Rework station sitting in my workshop ready for its
+first use and I've been feeling a bit nervous about it. This tutorial has definitely helped to allay some of those worries.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 5th March, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-03-05/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-03-05/</guid>
+            <pubDate>Mon, 05 Mar 2018 09:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I missed a few weeks there - Chinese New Year has a tendency to disrupt my routines - but I'm back at it now!</p>
+<h2 id="reading">Reading</h2>
+<h3 id="the100yearcapitalistexperimentthatkeepsappalachiapoorsickandstuckoncoalhttpsqzcom1167671the100yearcapitalistexperimentthatkeepsappalachiapoorsickandstuckoncoal"><a href="https://qz.com/1167671/the-100-year-capitalist-experiment-that-keeps-appalachia-poor-sick-and-stuck-on-coal/">The 100-year capitalist experiment that keeps Appalachia poor, sick, and stuck on coal</a></h3>
+<p>I find the economics and politics of the United States endlessly fascinating. It's such a kaleidoscope of
+views, opinions, and histories. This article targets the political history of the Appalachian region
+of the US. If you find this interesting check out the book "Dreamland" by Sam Quinones. It focuses on
+the ongoing opioid epidemic in the US, but similar themes as found in this article pop up all over the place.</p>
+<h3 id="bandcamphttpsdailybandcampcom20180212thebandcamp2017yearinreview"><a href="https://daily.bandcamp.com/2018/02/12/the-bandcamp-2017-year-in-review/">Bandcamp</a></h3>
+<p>Yay for Bandcamp! For me it's the one major web company that has only had a purely positive impact
+on the communities it is involved with (feel free to prove me wrong, I'm sure I'm forgetting some other companies).
+It's great to see them continuing to grow.</p>
+<h3 id="thedonkeykongtimelineistrulydisturbinghttpskotakucomthedonkeykongtimelineistrulydisturbing1823035151"><a href="https://kotaku.com/the-donkey-kong-timeline-is-truly-disturbing-1823035151">The Donkey Kong Timeline Is Truly Disturbing</a></h3>
+<p>Some people have too much time on their hands, and I'm very glad for that.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="aalagainstalllogic20122017httpswwwdiscogscomartist3754267aalagainstalllogic"><a href="https://www.discogs.com/artist/3754267-AAL-Against-All-Logic">A.A.L. (Against All Logic) - 2012-2017</a></h3>
+<p>I can't remember the last time I felt this way listening to house music. A.A.L. (bka Nicolas Jaar)
+has tapped into the rawness at the core of house, a rawness that has been missing from most house music
+I've heard in the last decade (with the big caveat that I don't listen to much house).</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 5th April, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-04-05/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-04-05/</guid>
+            <pubDate>Thu, 05 Apr 2018 08:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Well I broke the chain again, though to be honest it was more just to a lack of anything to talk about rather
+than procrastinating/forgetting to write something like usual.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="provenancebyannleckiehttpswwwamazoncomprovenanceannleckieebookdpb06xw6ytkvrefasap_bcieutf8"><a href="https://www.amazon.com/Provenance-Ann-Leckie-ebook/dp/B06XW6YTKV/ref=asap_bc?ie=UTF8">Provenance by Ann Leckie</a></h3>
+<p>I spotted this on this year's Hugo Awards shortlist; I had no idea that Leckie has a new book out already, so it was a pleasant surprise.
+I'm only about halfway through it, but Provenance is so far proving to be of the same calibre as the Ancillary series, with the same world-building that has a way of making you question your own preconceptions about society.</p>
+<h3 id="allriseandnofallhowcivilizationreinforcesadangerousmythhttpswwwrockpapershotguncom20180315allriseandnofallhowcivilizationreinforcesadangerousmyth"><a href="https://www.rockpapershotgun.com/2018/03/15/all-rise-and-no-fall-how-civilization-reinforces-a-dangerous-myth/">All rise and no fall: how Civilization reinforces a dangerous myth</a></h3>
+<p>As a strategy game fiend and someone who sits very much on the political left, this article hit very close to home for me. A lot of
+historical strategy games ascribe strongly to the "great men" view of history, paving over the realities of the eras they're set in. But it's of course a tricky situation for developer who must balance historicity with fun, and it seems to be a rather large challenge simulating the fall of a player's empire. As an aside, the article offer Crusader Kings 2 as a good example of an alternative to Civilization's growth at all costs mentality, but I'd suggest another game from Paradox, Victoria 2 as a better example - it's simulation of communist or fascist uprisings, or the brutality of an economic depression show a path where a player can lose almost all they've built up but still have the opportunity to turn it around and "win" the game.</p>
+<h3 id="stephenhawking19422018httpsjacobinmagcom201803stephenhawkingobituaryalsnhsbds"><a href="https://jacobinmag.com/2018/03/stephen-hawking-obituary-als-nhs-bds">Stephen Hawking (1942–2018)</a></h3>
+<p>There were lots of great obituaries for the great scientist Stephen Hawking, but I found this one particularly interesting due to 
+it's insight into Hawking's political activism, an area of his life that I was unaware of.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 6th May, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-05-06/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-05-06/</guid>
+            <pubDate>Sun, 06 May 2018 21:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Today I've got a bunch of short recommendations as I've been procrastinating compiling them for the last few weeks.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="howreferendumsbreakdemocraciesbytimharfordhttptimharfordcom201803howreferendumsbreakdemocracies"><a href="http://timharford.com/2018/03/how-referendums-break-democracies/">How referendums break democracies by Tim Harford</a></h3>
+<p>Tim Harford is an economics author who I keep returning to as a small dose of sanity in the chaotic political atmosphere
+of the last few years.</p>
+<h3 id="howtowriteagitcommitmessagebychrisbeamshttpschrisbeamsiopostsgitcommit"><a href="https://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message by Chris Beams</a></h3>
+<p>Sage advice for the coders among you. I revisited this article while rewriting the code quality guideline for the company 
+I work for. Commits messages are a simple thing on the face of it, but doing them correctly can make a massive difference
+to communication in a development team.</p>
+<h3 id="whatidontlikeaboutcapitalismpartibydaveruperthttpsdaverupertcom201804whatidontlikeaboutcapitalismparti"><a href="https://daverupert.com/2018/04/what-i-don-t-like-about-capitalism-part-i/">What I Don't Like About Capitalism (Part I) by Dave Rupert</a></h3>
+<p>Written from a tech workers perspective. I'm only partially on board with the thesis as I believe the denigration "low-quality goods and services" can be an overly simplified argument that ignores economic imbalances on a global scale, but I still think Dave make a generally good point in the article.</p>
+<h3 id="ataxonomyoftechnicaldebthttpsengineeringriotgamescomnewstaxonomytechdebt"><a href="https://engineering.riotgames.com/news/taxonomy-tech-debt">A Taxonomy of Technical Debt</a></h3>
+<p>This article is no fucking joke. I immediately forwarded it to the entire tech team at my office. The author has, in my
+opinion, nailed the nebulous concept that is technical debt.</p>
+<h3 id="anengineersbillofrightsandresponsibilitiesbycharitymajorshttpscharitywtf20180330anengineersbillofrightsandresponsibilities"><a href="https://charity.wtf/2018/03/30/an-engineers-bill-of-rights-and-responsibilities/">An Engineer's Bill of Rights (And Responsibilities) by Charity Majors</a></h3>
+<p>Not much to say on this other than give it a read if you're a software engineer.</p>
+<h3 id="thelatesttrendfortechinterviewsdaysofunpaidhomeworkhttpsworkqzcom1254663jobinterviewsforprogrammersnowoftencomewithdaysofunpaidhomework"><a href="https://work.qz.com/1254663/job-interviews-for-programmers-now-often-come-with-days-of-unpaid-homework/">The latest trend for tech interviews: Days of unpaid homework</a></h3>
+<p>Oh man, this article hit me hard. I'm currently sitting on both sides of the fence of this "trend", having experienced such
+requests in my current job search, while also giving out such assignments while trying to hire for my current company. I have
+to admit that I haven't previously thought to hard on how requesting chunks of time from a job applicant can make the playing field
+uneven, and, after reading this article (and the Hacker News discussion around it) I'm definitely going to be working on changing our hiring process in my current job before I move on.</p>
+<h3 id="estimationisacorecompetencybyginatrapanihttpstrackchangespostlightcomestimationisacorecompetency36dfc1dfdea3"><a href="https://trackchanges.postlight.com/estimation-is-a-core-competency-36dfc1dfdea3">Estimation Is a Core Competency by Gina Trapani</a></h3>
+<p>Gina Trapani calls out the bullshit "estimation is impossible" argument that every dev has been guilty of making at some point in time (myself included).</p>
+<h3 id="theunitedstatesofjapanhttpswwwnewyorkercomcultureculturedesktheunitedstatesofjapan"><a href="https://www.newyorker.com/culture/culture-desk/the-united-states-of-japan">The United States of Japan</a></h3>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 17th June, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-06-17/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-06-17/</guid>
+            <pubDate>Sun, 17 Jun 2018 08:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="utcisenoughforeveryonerighthttpszachholmancomtalkutcisenoughforeveryoneright"><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone…right?</a></h3>
+<p>A great article and great web design is always a killer combo. Also a timely (yeah, pun intended) reminder of why 
+time is one of the more complex areas of computer science.</p>
+<h3 id="fridayfacts246theguiupdatepart3httpswwwfactoriocomblogpostfff246"><a href="https://www.factorio.com/blog/post/fff-246">Friday Facts #246 - The GUI update (Part 3)</a></h3>
+<p>I've not played Factorio before, but even so I loved this deep dive into the surprisingly complicated 
+issue of button placement in application UIs. The <a href="https://news.ycombinator.com/item?id=17269938">Hacker News conversation</a> about this article is equally informative</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 24th June, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-06-24/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-06-24/</guid>
+            <pubDate>Sun, 24 Jun 2018 08:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="whathedoeswithwhathehasblawaninterviewedhttpthequietuscomarticles24794blawanjamierobertsinterview"><a href="http://thequietus.com/articles/24794-blawan-jamie-roberts-interview">What He Does With What He Has: Blawan Interviewed</a></h3>
+<p>Like most people I became familiar with Blawan after hearing 'Why They Hide Their Bodies Under My Garage', and his subsequent
+disappearance from the musical landscape always left me wanting more. This interview with The Quietus
+explains where he went to, and how he evolved from the frantic horror-dubstep of his earlier releases to the oddly-organic
+minimal techno he's making nowadays.</p>
+<h3 id="theradicallessonsofayearreportingonknifecrimehttpswwwtheguardiancommembership2018jun21radicallessonsknifecrimebeyondtheblade"><a href="https://www.theguardian.com/membership/2018/jun/21/radical-lessons-knife-crime-beyond-the-blade">The radical lessons of a year reporting on knife crime</a></h3>
+<p>A fascinating look into the facts and perceptions of knife crime in the UK. Particularly interesting
+are the parallels between violence and infectious disease, and how treating crime as a public health 
+issue can yield results.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="blawanwetwillalwaysdry">Blawan - Wet Will Always Dry</h3>
+<p>See the reading recommendation above! Excellently tailored minimal/industrial techno.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 1st July, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-07-01/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-07-01/</guid>
+            <pubDate>Sun, 01 Jul 2018 08:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="memorizingthesethreestatisticswillhelpyouunderstandtheworldhttpswwwgatesnotescomdevelopmentmaxroserthreefactseveryoneshouldknow"><a href="https://www.gatesnotes.com/Development/Max-Roser-three-facts-everyone-should-know">Memorizing these three statistics will help you understand the world</a></h3>
+<p>The title is a little clickbait-y (though that's pretty run-of-the-mill these days), but the article
+itself is still worthy. Essentially it's a bunch of statistics, and pretty well known ones at that, but
+it is nice to have a condensed reminder of the positive changes humanity has made in the last century
+and offset the general pessimism that seems to be the trend at the moment.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 2nd September, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-09-02/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-09-02/</guid>
+            <pubDate>Sun, 02 Sep 2018 13:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="annoyedbyrestaurantplaylistsamastermusicianmadehisownhttpswwwnytimescom20180723diningrestaurantmusicplaylistsryuichisakamotohtml"><a href="https://www.nytimes.com/2018/07/23/dining/restaurant-music-playlists-ryuichi-sakamoto.html">Annoyed by Restaurant Playlists, a Master Musician Made His Own</a></h3>
+<p>This article feels like peak-Ryuichi Sakamoto. Good background music will make me return to an average restaraunt or bar every time. And that playlist is ace - it warms my heart to know he's a fan of both Aphex Twin and Oneohtrix Point Never.</p>
+<h3 id="themysteriousheartoftherolandtr808drummachinehttpsecretlifeofsynthesizerscomthestrangeheartoftherolandtr808"><a href="http://secretlifeofsynthesizers.com/the-strange-heart-of-the-roland-tr-808/">The mysterious heart of the Roland TR-808 drum machine</a></h3>
+<p>I often thought of electronics as being made up of stolid, identical components, but over the last year I've learnt how different two instances of the same IC can be. Turns out the classic TR808 drum machine uses these "defective" ICs to its advantage</p>
+<h2 id="watching">Watching</h2>
+<h3 id="whywebleep006scannerhttpswwwwhywebleepcomwhywebleep201830whywebleep006"><a href="https://www.whywebleep.com/whywebleep/2018/30/whywebleep006">WHY WE BLEEP 006: SCANNER</a></h3>
+<p>This interview was not exactly what I expected. A lot less music tech geekery and a lot more in the way of philosophies on life. I've been trying to journal ever since watching it, though to be honest I haven't been doing very well!</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 23rd September, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-09-23/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-09-23/</guid>
+            <pubDate>Sun, 23 Sep 2018 13:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="howtodealwithdirtysideeffectsinyourpurefunctionaljavascripthttpsjrsinclaircomarticles2018howtodealwithdirtysideeffectsinyourpurefunctionaljavascript"><a href="https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/">How To Deal with Dirty Side Effects in Your Pure Functional Javascript</a></h3>
+<p>This is a great intro to a more intermediate level of functional programming in JS (and maybe just FP in general). Functors, monads, and general removal of side effects. The tie in with Tensorflow at the end is nice too! I've started a new job in the last month were
+the main language I write in is Ruby. While there are touches of functional programming style, it is mostly classic OOP, and
+it's made me very quickly appreciate how suited Javascript could be for functional programming if you use a little bit of
+coding discipline.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 1st October, 2018]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2018-10-01/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2018-10-01/</guid>
+            <pubDate>Mon, 01 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="watching">Watching</h2>
+<h3 id="buildingimpossibleprogramshttpsjvnscablog20180918buildimpossibleprograms"><a href="https://jvns.ca/blog/2018/09/18/build-impossible-programs/">Building Impossible Programs</a></h3>
+<p>Julia Evans does a great talk about building a Ruby profiler. It's a nice reminder that just because an app/tool/program doesn't exist, doesn't mean that it can't be built!</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 19th January, 2019]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2019-01-19/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2019-01-19/</guid>
+            <pubDate>Sat, 19 Jan 2019 13:35:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="wehavethetechnologybuildingaeuroracksystemforlivetechnohttpswwwnoiseengineeringusblog201914wehavethetechnologybuildingaeuroracksystemforlivetechno"><a href="https://www.noiseengineering.us/blog/2019/1/4/we-have-the-techno-logy-building-a-eurorack-system-for-live-techno">We have the techno-logy: building a Eurorack system for live techno</a></h3>
+<p>Noise Engineering has put together an overview of what you need in a Eurorack system to
+make banging techno (with two Basimilus Iteritas Alters of course!). I'm going to be
+cribbing some ideas for my setup from here over the coming week.</p>
+<h3 id="assortednovelsfromrobertjacksonbennetthttpsenwikipediaorgwikirobert_jackson_bennett"><a href="https://en.wikipedia.org/wiki/Robert_Jackson_Bennett">Assorted novels from Robert Jackson Bennett</a></h3>
+<p>Over the holiday period I read 4 novels from American fantasy author Robert Jackson Bennett. I started with
+<em>Foundryside</em>, which plays out as a fantasy story parsed through a cyber-punk heist caper. It's a
+truely intriguing story and I'm pretty keen to read the next entry in the series later this year.</p>
+<p>After that I went back and read Bennett's <em>The Divine Cities</em> trilogy. The worldbuilding here was
+also fascinating, delving into elements of colonialism and religion. While the pacing was as tight
+as in Foundryside, I still found it an enjoyable read.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 1st February, 2019]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2019-01-31/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2019-01-31/</guid>
+            <pubDate>Fri, 01 Feb 2019 14:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="graduallythensuddenlyhttpswwwlinkedincompulsegraduallysuddenlytimoreilly"><a href="https://www.linkedin.com/pulse/gradually-suddenly-tim-o-reilly/">Gradually, Then Suddenly</a></h3>
+<p>Tim O'Reilly reviews 10 areas of technology that he expects to see breakthroughs in over
+coming years. It's a quick read, but one that'll probably inspire you in one way or another.
+I'm particularly intrigued by the agricultural technologies he discusses, and that's rabbit hole
+I'm now currently going down.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="demdikestarestitchbystitchtape4httpssoundcloudcommodernlovedemdikestarestitchbystitchtape4"><a href="https://soundcloud.com/modernlove/demdike-stare-stitch-by-stitch-tape-4">Demdike Stare - Stitch By Stitch Tape 4</a></h3>
+<p>Turns out that Demdike Stare put out four tape mixes of dark dubby drones last year
+(on top of the excellent album Passion). It's been my work soundtrack all week.</p>
+<h3 id="variouslifedeathonthenewyorkdancefloor19801983partiiihttpswwwresidentadvisornetreviews23381"><a href="https://www.residentadvisor.net/reviews/23381">Various - Life & Death On The New York Dance Floor 1980-1983 Part I & II</a></h3>
+<blockquote>
+  <p>"I was there in the Paradise Garage DJ booth with Larry Levan" - LCD Soundsystem - Losing My Edge</p>
+</blockquote>
+<p>The 80s NY disco scene is a musical era I'd heard spoken of before, but not one I'd ever explored
+much besides the peripheries were it crossed over into New Wave or other 80s electronic movements. This
+compilation definitely make me want to learn more about it though. The sounds here really bridge the
+gap between New York new/no wave bands of the same time and the kind of music that was soon to be made for the clubs of
+Detroit and Chicago (and later, Manchester).</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 30th May, 2019]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2019-05-30/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2019-05-30/</guid>
+            <pubDate>Thu, 30 May 2019 13:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="typescript30theunknowntypehttpsmariusschulzcomblogtypescript30theunknowntype"><a href="https://mariusschulz.com/blog/typescript-3-0-the-unknown-type">TypeScript 3.0: The unknown Type</a></h3>
+<p>I'm immediately going to start using the <code>unknown</code> type in my TypeScript projects after learning
+about it in this post from @mariusschulz. No more using <code>any</code> when I'm a little unsure of how to
+type data coming from the server!</p>
+<h3 id="constassertionsarethekillernewtypescriptfeaturehttpsbloglogrocketcomconstassertionsarethekillernewtypescriptfeatureb73451f35802"><a href="https://blog.logrocket.com/const-assertions-are-the-killer-new-typescript-feature-b73451f35802">const assertions are the killer new TypeScript feature</a></h3>
+<p>"killer new feature" generally feels too hyperbolic for me, but in this case I kind of agree. We've
+been using const assertions at work while building a component library and it massively reduces the
+number of interfaces we'd usually write.</p>
+<h3 id="buildingthatadmindashboardhttpsmediumcomfishbrainbuildingthatadmindashboard9a24c5fe569"><a href="https://medium.com/fishbrain/building-that-admin-dashboard-9a24c5fe569">Building that admin dashboard</a></h3>
+<p>Building admin tools can be surprisingly hard! One of my colleague's at Fishbrain has written a
+great blog post on some of the challenges we've faced doing just that.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="steevioforgottenfutures">[Steevio - Forgotten Futures]</h3>
+<p>A Eurorack hero of mine. Steevio's jazzy techno tunes are all the more impressive for knowing that
+they're being constructed on the fly.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="funwithreacthooksmichaeljacksonandryanflorencehttpswwwyoutubecomwatchv1jws7ccuuxw"><a href="https://www.youtube.com/watch?v=1jWS7cCuUXw">Fun with React Hooks - Michael Jackson and Ryan Florence</a></h3>
+<p>I really came away from these two talks with a much more comprehensive understanding of React hooks,
+plus some great new ideas on how I could use them in my own work.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 8th December, 2019]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2019-12-08/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2019-12-08/</guid>
+            <pubDate>Sun, 08 Dec 2019 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I've been a little sporadic with these posts this year. Maybe next year I can be more consistent…or
+maybe not.</p>
+<h2 id="reading">Reading</h2>
+<h3 id="bloodandsoilinnarendramodisindiahttpswwwnewyorkercommagazine20191209bloodandsoilinnarendramodisindia"><a href="https://www.newyorker.com/magazine/2019/12/09/blood-and-soil-in-narendra-modis-india">Blood and Soil in Narendra Modi's India</a></h3>
+<p>I was aware of Modi's political history, but not quite to the extent that this article lays out. It's
+quite terrifying to me that this has become a somewhat normal political situation around the globe in
+recent years (I'm thinking of the mass imprisonment of Uighurs and other minorities in China, the
+extra-judicial killings that occur in the Philippines, and police brutality and state sponsored violence
+occurring in numerous countries at the moment, among other issues).</p>
+<h3 id="52thingsilearnedin2019httpsmediumcomfluxxstudionotes52thingsilearnedin20198ee483e6c816"><a href="https://medium.com/fluxx-studio-notes/52-things-i-learned-in-2019-8ee483e6c816">52 things I learned in 2019</a></h3>
+<p>I know Tom Whitwell through the Eurorack world for his work as the behind <a href="https://musicthing.co.uk/">Music Thing Modular</a>,
+but I've also grown to love his yearly round up of weird things he learnt in the previous year.</p>
+<p>A few favourites:</p>
+<blockquote>
+  <p>The goal of walking 10,000 steps per day may have originated when a Japanese pedometer manufacturer noticed that the 万 symbol (which means 10,000) looks a little like someone walking. The actual health merits of that number ‘have never been validated by research.’</p>
+  <p>mobile phones became mainstream in the US in the early 1990s, the murder rate fell sharply. Street drug dealing became less popular, so gang-related turf wars were less common.</p>
+  <p>Drunk shopping could be a $45bn /year industry, and only 6% of people regret their drunk purchases.</p>
+</blockquote>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 15th December, 2019]]></title>
+            <link>http://lukehansford.me/articles/ephemera-2019-12-15/</link>
+            <guid>http://lukehansford.me/articles/ephemera-2019-12-15/</guid>
+            <pubDate>Sun, 15 Dec 2019 14:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="howwilliamgibsonkeepshissciencefictionrealhttpswwwnewyorkercommagazine20191216howwilliamgibsonkeepshissciencefictionreal"><a href="https://www.newyorker.com/magazine/2019/12/16/how-william-gibson-keeps-his-science-fiction-real#">How William Gibson Keeps His Science Fiction Real</a></h3>
+<h3 id="thinkinginreacthookshttpswattenbergercomblogreacthooks"><a href="https://wattenberger.com/blog/react-hooks">Thinking in React Hooks</a></h3>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[NaNoCroSoMo]]></title>
+            <link>http://lukehansford.me/articles/nanocrosomo/</link>
+            <guid>http://lukehansford.me/articles/nanocrosomo/</guid>
+            <pubDate>Wed, 26 Nov 2014 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p><a href="https://nanocrosomo.herokuapp.com/">NaNoCroSoMo</a> (National Novel Crowd Sourcing Month) is my take on <a href="http://nanowrimo.org/">NaNoWriMo</a> inspired by the work of those mentioned in the <a href="http://www.theverge.com/2014/11/25/7276157/nanogenmo-robot-author-novel">recent Verge article</a> covering the work of a number of programmers trying to use algorithms to generate novels. My implementation meets somewhere in the middle of these two. Every thirty seconds a computer generated word is added to the story. This word is selected using n-grams taken from the Google Books corpus.
+To add a human element, however, anyone can add their own word. Simply type a word and hit enter to add it to the story.</p>
+<p>So far the results are mixed. There's no narrative from the computer-generated words, as they are only selected based on the previous two words. I've also come across cases where the language randomly changes (usually at the start of a new sentence). Despite these issues, however, the sentences being produced are somewhat legible. I'm more interested to see what could happen if numerous people are editing it at the same time. Hopefully the web gets a hold of it!</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Resolutions for 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-2015/</guid>
+            <pubDate>Thu, 01 Jan 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>I used to be a cynic in regards to new year resolutions. My line of thought was
+that if you really wanted to accomplish something you would just go ahead and do
+it, not wait until an arbitrary date to begin. Good in theory, but I think I was
+missing the point. Although January 1st truly is arbitrary, time itself is a
+rather nebulous concept, and having a set date to reflect and gather one's
+thoughts is a valuable opportunity.</p>
+<p>2014 was a rather good year for me. I earned a Master's degree, got my first job
+in the IT industry, moved to Singapore, started a podcast, and travelled to
+Vietnam, Penang, and Melbourne for the first time. I already had ideas for the
+coming year before sitting down to write this. I'd like to keep growing Frequency
+Asia, and travel if I have the chance. I also want to keep pushing my software
+development skills and succeed in my new job.</p>
+<p>But I also wanted to expand my
+horizons into some new areas - things I've dreamed of accomplishing (or even
+just attempting) over the years. I decided to make 12 resolutions for 2015;
+ostensibly one for each month, but some of them will take a lot more than a
+month to achieve, while others might take a much shorter time. I tried to avoid
+vague resolutions and stick to more solid goals, so that by the end of the year
+I will be able to look back and give a firm yes or no on whether I had completed
+that resolution.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>This is the only resolution I'm making that doesn't have a discrete goal state. Having lived in China for 5 years, I often get asked the question if I am fluent in Mandarin, to which I usually awkwardly reply that I can get by in China. I don't feel comfortable assessing my own language ability (ironic given that I worked as a language teacher for those 5 years, and that my girlfriend is also a language teacher), so instead this resolution will consist of spending each morning studying Malay for 30 minutes. I might not be fluent by the end of the year, but hopefully I will have put in enough effort to converse in Malay.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>I'm reserving the right to back out of this one, but it's something I've been considering for a while. I've always joked that I would never get a tattoo due to my fear of needles, but that was just to cover up a deeper concern - indecisiveness. My fear is that I would immediately regret any tattoo I got. Let's see if I can kill that fear.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>A novel, a short story, something non-fiction, it just has to qualify as a book. It's a pretty big undertaking, but I imagine it'll be worth it.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>Yes, this is different from the previous resolution. I want to physically bind a book. I plan to make a compilation of interesting articles I read in 2014, print them, then bind them as a book. I'll post more information about this project in the next week or two.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>And make money from it. Capitalistic, yes, but I'd like to see if I could do it. It doesn't need to be a lot, and the app itself could be huge or tiny.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>This is a DIY project I've been considering for a while. My last room in Beijing was tiny and had little ventilation, so I took to using candles to make it smell a little nicer. Ikea had a range of candles that smelt just like donuts to me. Candles tend to come with more feminine scents, so I'd like to try making candles with some interesting, more stereotypically masculine flavours such as bacon, whiskey, or sawdust.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>I got so close to paying off my credit card when I moved back to Australia, but the reality of being a uni student set in and the debt started to rise again. It's not a lot of money to be honest, but it's still a good goal to accomplish.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>I'm going to be vague on the terms of this one as I'm not really sure of my capabilities. This would likely be a trip from Singapore to somewhere Malaysia, possibly Malacca. The general objective though will be to ride somewhere far enough away from home that I need to get a hotel room.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>I really miss playing guitar in a band, so I hardly even need to make it a resolution. So I've upped the ante to include playing shows and releasing music. That'll keep me on my toes.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>I'm slack when it comes to communicating to people, so I'm going to try and email/message an old friend I haven't spoken to in a while each week of the year (or possibly more).</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Apparently they're killing me.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>I've always loved maps. For the last 8 years or so that passion has been channelled into the computer games produced by Paradox Interactive. They make historical grand strategy games such as the Europa Universalis and Crusader Kings series. I've played A LOT of them (between CKII and EUIV I've clocked 1000 hours), so much that I had to delete Steam and swear of games. I still have a map-shaped desire somewhere deep in my cerebral cortex though, so to try and satiate it I want to try and make maps. Like big, wood framed, hang on your wall, maps. My brain is in overdrive just thinking about it (yeah I know, I'm odd).</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, April 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-apr-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-apr-2015/</guid>
+            <pubDate>Wed, 01 Apr 2015 13:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I only missed nine days of study this month. My week point seems to be the weekends, as I missed almost all of them in March.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>No progress.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>Back to square one on this. Rethinking whether I want to spend time working on Android stuff.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>No progress.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>Paid off a chunk of my credit, still a way to go though.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>No progress.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Been doing much better this month, with the aim of chatting with someone different every day.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Not doing so well on this. I tried to start meditating before sleep, but I'm not too great at meditation it seems. My aim is start getting at least 15 minutes of meditation in every night.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, August 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-aug-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-aug-2015/</guid>
+            <pubDate>Sat, 01 Aug 2015 13:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I started to study a bit more in July, but it has been more about catchup then learning anything new.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress, but I've started to write a bit more in July, which will hopefully lead to something more substantial.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>No progress.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>Not much progress. I've been working on a wiki-style website for music resources and am contemplating a OS X app, but with no solid plan at the moment.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>I no longer intend to complete this project.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>A little bit spent, a little paid, I'm probably back at where I was at the beginning of the month.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>I purchased some gear (Volca Sampler, DI) to try making some electronic music on my own. Nothing solid put down yet though.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Still not doing this as frequently as I'd like.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Did pretty terribly at this in July (mostly because Evelyn is back in Malaysia).</p>
+<h2 id="makemaps">Make maps</h2>
+<p>Only worked on this a couple of times in July.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, Feb 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-feb-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-feb-2015/</guid>
+            <pubDate>Sun, 01 Feb 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>This resolution if going very well. I've managed to put in at least 30 minutes of
+study for 4 out of 5 days in January, and my word count is at about 250.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>Haven't got a tattoo yet - I'm still dwelling on what to get (and where).</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress on this yet, though I have some concepts for a story floating around
+in my head.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>This is coming along pretty well. The content of the book I'm putting together,
+is about 75% done.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>I've been hemming and hawing over this one. Today I'm going to have another crack
+at getting started.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>No progress on this.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>Definitely no progress in this. I'm still awaiting my first pay day for my new job.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>Same as above, waiting for pay to purchase a bike.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>I've been playing guitar, but yet to start playing with other people.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Nope nope nope, failing hard on this one. I'm going to start thoroughly tracking
+this in the hopes I've getting better at it.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Not to great at this. Sometimes I do, but I would say it's only 25% of the time.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress on this.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, July 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-jul-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-jul-2015/</guid>
+            <pubDate>Wed, 01 Jul 2015 13:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I did almost no study in June. I'm going to have to make a concerted effort to get back on that horse.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>I've finished the design work, but I've been delaying on researching printing options.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>No progress. I'm currently working on a new website project called cassette.space.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>I no longer intend to complete this project.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>Money has been tight this month, and probably will be next month as well. I've started to keep a proper budget so that I can keep track of how much I'm spending.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>No progress.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Still not doing this as frequently as I'd like.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>I've taken to reading more often before I sleep (on my Nexus 7 tablet though).</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, June 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-jun-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-jun-2015/</guid>
+            <pubDate>Mon, 01 Jun 2015 13:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I've really fallen behind on studying Malay. The key to getting back at it will be to start waking up at 6 agian and working on it.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>I've done a bit of design work on this in the last week or so. Hopefully I can get it polished off by the end of this month.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>No progress.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>No progress.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>A little progress.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>No progress.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Still not doing this as frequently as I'd like</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Still failing.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>I've been able to do a lot more of this in the last week. I've been collecting language data and am close to finishing off the Americas.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, Mar 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-mar-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-mar-2015/</guid>
+            <pubDate>Sun, 01 Mar 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I dropped off a bit last month with my Malay study - I'd wager that I only studied around 50% of the days in February.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>Still undecided on what to get for this.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>No progress.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>I've worked a little bit on a todo.txt app, but I'm not sure if I still want to follow through on it.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>No progress.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>Negative progress, but I have the intention of paying off some in the next week.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>No progress.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>No progress.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>No progress.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, May 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-may-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-may-2015/</guid>
+            <pubDate>Fri, 01 May 2015 13:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I had dengue fever in April, so I fell of the wagon with my Malay study. The last few days though I've been getting a reasonable amount of time in.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>No progress.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>No progress.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>No progress.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>No progress.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>Slightly negative progress.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>No progress.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Didn't really do well at this in April.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>Pretty much failed at this.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, November 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-nov-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-nov-2015/</guid>
+            <pubDate>Thu, 03 Dec 2015 14:00:00 GMT</pubDate>
+            <description><![CDATA[<p>So at this point in time my new year resolutions have kind of fallen by the wayside. Some of them
+are unlikely to happen by the end of the year, while others I've lost interest in. I'm not going to
+hold my self to the latter as there's no point doing something I'd rather not do. The tattoo thing
+I'm on the fence about (mainly I don't know what I would get), the candles thing is over (Ikea candles work
+ just fine), and I've been too preoccupied to work on maps or do much writing.</p>
+<p>Two things I have been doing in the last month is working on a new Frequency Asia project, which I
+guess could be considered an app, and getting in contact with people a lot more often. I've also
+started playing around with <a href="http://www.fastcompany.com/3053036/how-to-be-a-success-at-everything/the-simple-technique-to-fit-a-40-hour-work-week-into-167-h">this method</a> to better manage my time. I like how it's going so far.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The State of My Resolutions, September 2015]]></title>
+            <link>http://lukehansford.me/articles/resolutions-sep-2015/</link>
+            <guid>http://lukehansford.me/articles/resolutions-sep-2015/</guid>
+            <pubDate>Tue, 08 Sep 2015 05:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
+and do a writeup at the end of each month to see how I've gone.</p>
+<h2 id="learnmalay">Learn Malay</h2>
+<p>I haven't really studied much Malay in the last month. I need to get in the swing of doing it when I wake up.</p>
+<h2 id="getatattoo">Get a tattoo</h2>
+<p>No progress.</p>
+<h2 id="writeabook">Write a book</h2>
+<p>I'm doing a bit of writing about the Atom editor, with the idea of compiling the articles into an E-book once I have written enough.</p>
+<h2 id="makeabook">Make a book</h2>
+<p>No progress.</p>
+<h2 id="releaseanapp">Release an app</h2>
+<p>Back to square one again. I'm stuck in the cycle of trying to identify a killer app, or at the very least something I'd want to use.</p>
+<h2 id="makecandles">Make candles</h2>
+<p>I no longer intend to complete this project.</p>
+<h2 id="bedebtfree">Be debt free</h2>
+<p>A wee bit of progress on this one.</p>
+<h2 id="goonalongdistancecyclingtrip">Go on a long-distance cycling trip</h2>
+<p>No progress.</p>
+<h2 id="startabandplayshowsreleasemusic">Start a band, play shows, release music</h2>
+<p>Good progress on this one. I've released two tracks under the Dallol moniker this month. I'm far from being able to perform live, but I'm getting there hopefully.</p>
+<h2 id="getintouchwithpeople">Get in touch with people</h2>
+<p>Doing a bit better on this this month, though I'm starting to realise that half the problem is that my friends are too much like me in this regards.</p>
+<h2 id="dontuseelectronicsthirtyminutesbeforeisleep">Don't use electronics thirty minutes before I sleep</h2>
+<p>A mixed month in relation to this goal. I haven't been sleeping well as of late, so maybe I need to double down on this.</p>
+<h2 id="makemaps">Make maps</h2>
+<p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+    </channel>
+</rss>

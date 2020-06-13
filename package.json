@@ -1,10 +1,30 @@
 {
-  "dependencies": {
-    "handlebars": "3.0.3",
-    "moment": "2.3.1",
-    "typogr": "0.5.2",
-    "uglify-js": "^3.3.17",
-    "underscore": "1.4.4"
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "yarn build:feed && yarn build:site",
+    "build:site": "next build",
+    "build:feed": "ts-node-script ./scripts/generateFeed.ts",
+    "release": "yarn && yarn build && yarn export -o build/",
+    "start": "next start",
+    "update-remote": "./scripts/update-remote.sh"
   },
-  "private": "true"
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "disqus-react": "^1.0.8",
+    "markdown-to-jsx": "^6.11.4",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "@types/react": "^16.9.35",
+    "feed": "^4.2.0",
+    "showdown": "^1.9.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
 }
