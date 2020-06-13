@@ -7,7 +7,7 @@
     "build": "yarn build:feed && yarn build:site",
     "build:site": "next build",
     "build:feed": "ts-node-script ./scripts/generateFeed.ts",
-    "release": "yarn && yarn build && yarn export -o build/",
+    "release": "yarn && yarn build && next export -o build/",
     "start": "next start",
     "update-remote": "./scripts/update-remote.sh"
   },
