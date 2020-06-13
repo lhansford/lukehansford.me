@@ -1,22 +1,15 @@
 # lukehansford.me
 
-## Setup
-- `nvm use`
-- `npm install wintersmith@2.2.0 -g` (Later versions of wintersmith aren't working for me)
-- `npm i`
-
 ## Developing Locally
-- `wintersmith build`
-- `cd  build`
-- `python -m SimpleHTTPServer`
+- `yarn dev`
 
 ## Updating
 - Push changes to git
-- Run `./update-remote.sh`
+- Run `yarn update-remote`
 
 OR
 
 - ssh into blog
 - cd /lukehansford.me
 - git pull
-- wintersmith build
+- yarn release
