@@ -45,6 +45,9 @@ const Page = ({ children, title }: IProps): JSX.Element => (
             <a href="/posts">Blog</a>
           </li>
           <li>
+            <a href="/notes">Notes</a>
+          </li>
+          <li>
             <a href="/photos">Photos</a>
           </li>
           <li>

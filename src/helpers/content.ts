@@ -20,6 +20,10 @@ export interface IPhoto extends IIndexData {
   videos: string;
 }
 
+export interface INote extends IIndexData {
+  tags: string;
+}
+
 function parseIndexData<T>(directory: string): T {
   const file = fs.readFileSync(`${directory}/index.md`, { encoding: "utf8" });
   const parts = file.split("---");
@@ -43,6 +47,7 @@ export enum ContentType {
   PROJECT = "projects",
   BLOG_POST = "articles",
   PHOTO = "photos",
+  NOTE = "notes",
 }
 
 export interface IContentItem<T> {
