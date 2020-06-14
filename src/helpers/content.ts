@@ -85,6 +85,7 @@ export function getContentPaths(
   contentType: ContentType
 ): { params: { id: string } }[] {
   return fs
-    .readdirSync(`./public/contents/${contentType}`)
-    .map((id) => ({ params: { id } }));
+    .readdirSync(`./public/contents/${contentType}`, { withFileTypes: true })
+    .filter((result) => result.isDirectory())
+    .map((result) => ({ params: { id: result.name } }));
 }
