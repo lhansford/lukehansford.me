@@ -10,7 +10,7 @@ but whenever I pair program it always end up being a much more enriched experien
 things for me is that there is always some one learning when pair programming - and in the best cases
 it's everyone involved. Jeff Atwood sums it up nicely:
 
-> If you're serious about programming, you should demand to work with your peers.
+> If you're serious about programming, you should demand to work with your peers.[^1]
 
 The one hurdle I'm not sure how to overcome is the classic "I'm stuck and just going to Google for
 15 minutes" situation. But maybe that's something I need to grin and bear? Either way, I'm trying
@@ -19,4 +19,4 @@ anyone wants to jump in.
 
 ## References
 
-[In Programming, One Is The Loneliest Number](https://blog.codinghorror.com/in-programming-one-is-the-loneliest-number/)
+[^1][In Programming, One Is The Loneliest Number](https://blog.codinghorror.com/in-programming-one-is-the-loneliest-number/)
