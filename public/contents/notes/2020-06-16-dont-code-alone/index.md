@@ -1,7 +1,7 @@
 ---
 title: Don't Code Alone
 date: 2020-06-16T11:52:48.635Z
-tags:
+tags: development, coding, teamwork, pair programming, mob programming
 ---
 
 I wrote this down in my notes the other day after hearing a colleague say it. It's such an interesting
