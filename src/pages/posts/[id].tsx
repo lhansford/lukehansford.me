@@ -1,5 +1,5 @@
-import Page from "../../components/Page/Page";
-import PostComponent from "../../components/Post/Post";
+import Page from '../../components/Page/Page';
+import PostComponent from '../../components/Post/Post';
 
 import {
   ContentType,
@@ -7,13 +7,9 @@ import {
   IContentItem,
   getContentPaths,
   IBlogPost,
-} from "../../helpers/content";
+} from '../../helpers/content';
 
-export default function Post({
-  post,
-}: {
-  post: IContentItem<IBlogPost>;
-}) {
+export default function Post({ post }: { post: IContentItem<IBlogPost> }) {
   return (
     <Page title={post.indexData.title}>
       <PostComponent

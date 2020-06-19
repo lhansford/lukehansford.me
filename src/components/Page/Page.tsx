@@ -1,6 +1,7 @@
-import React, { ReactNode } from "react";
-import Head from "next/head";
-import Footer from "../Footer/Footer";
+import React, { ReactNode } from 'react';
+import Head from 'next/head';
+
+import Footer from '../Footer/Footer';
 
 interface IProps {
   children: ReactNode;
@@ -10,13 +11,8 @@ interface IProps {
 const Page = ({ children, title }: IProps): JSX.Element => (
   <div className="container">
     <Head key="PageHead">
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <link
-        href="/feed.xml"
-        rel="alternate"
-        title="Luke Hansford"
-        type="application/atom+xml"
-      />
+      <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link href="/feed.xml" rel="alternate" title="Luke Hansford" type="application/atom+xml" />
 
       <link
         href="//fonts.googleapis.com/css?family=Inconsolata:400,700"
@@ -27,9 +23,9 @@ const Page = ({ children, title }: IProps): JSX.Element => (
         rel="stylesheet"
         href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/zenburn.min.css"
       />
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js" />
       <script>hljs.initHighlightingOnLoad();</script>
-      <title>Luke Hansford - {title}</title>
+      <title>Luke Hansford -{title}</title>
     </Head>
     <header>
       <div className="page-title">
@@ -57,7 +53,7 @@ const Page = ({ children, title }: IProps): JSX.Element => (
             <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="/reading-list">What I'm Reading</a>
+            <a href="/reading-list">What I&apos;m Reading</a>
           </li>
           <li>
             <a href="/stockholm-restaurants">Stockholm Restaurants</a>

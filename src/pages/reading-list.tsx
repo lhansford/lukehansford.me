@@ -1,6 +1,6 @@
-import Page from "../components/Page/Page";
+import Page from '../components/Page/Page';
 
-export default function ReadingList() {
+export default function ReadingList(): JSX.Element {
   return (
     <Page title="Reading List">
       <iframe
@@ -9,8 +9,9 @@ export default function ReadingList() {
         frameBorder="0"
         width="100%"
         height="533"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-      ></iframe>
+        style={{ background: 'transparent', border: '1px solid #ccc' }}
+        title="Reading List"
+      />
     </Page>
   );
 }

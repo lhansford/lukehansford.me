@@ -1,5 +1,5 @@
-import Page from "../../components/Page/Page";
-import PostComponent from "../../components/Post/Post";
+import Page from '../../components/Page/Page';
+import PostComponent from '../../components/Post/Post';
 
 import {
   ContentType,
@@ -7,13 +7,9 @@ import {
   IContentItem,
   getContentPaths,
   INote,
-} from "../../helpers/content";
+} from '../../helpers/content';
 
-export default function Note({
-  note,
-}: {
-  note: IContentItem<INote>;
-}) {
+export default function Note({ note }: { note: IContentItem<INote> }) {
   return (
     <Page title={note.indexData.title}>
       <PostComponent

@@ -1,13 +1,13 @@
-import Page from "../../components/Page/Page";
-import Post from "../../components/Post/Post";
+import { parseISO, format } from 'date-fns';
+
+import Page from '../../components/Page/Page';
 import {
   ContentType,
   IPhoto,
   getContentItem,
   IContentItem,
   getContentPaths,
-} from "../../helpers/content";
-import { parseISO, format } from "date-fns";
+} from '../../helpers/content';
 
 export default function Photo({
   photo: {
@@ -16,28 +16,31 @@ export default function Photo({
 }: {
   photo: IContentItem<IPhoto>;
 }) {
-  const formattedDate = format(parseISO(date), "MMM d, y");
+  const formattedDate = format(parseISO(date), 'MMM d, y');
   const title = `Photo from ${formattedDate}`;
   return (
     <Page title={title}>
       <article className="blog-post h-entry">
         <h1 className="p-name">{title}</h1>
         <div className="post-header__date">
-          <time
-            className="dt-published"
-            dateTime={parseISO(date).toISOString()}
-          >
+          <time className="dt-published" dateTime={parseISO(date).toISOString()}>
             {formattedDate}
           </time>
         </div>
         <div className="e-content">
           <p>{description}</p>
-          {videos.split(",").filter(f => f.length > 0).map((src) => (
-            <video src={`/contents${src}`} controls></video>
-          ))}
-          {images.split(",").filter(f => f.length > 0).map((src) => (
-            <img src={`/contents${src}`} />
-          ))}
+          {videos
+            .split(',')
+            .filter((f) => f.length > 0)
+            .map((src) => (
+              <video key={`video-${src}`} src={`/contents${src}`} controls />
+            ))}
+          {images
+            .split(',')
+            .filter((f) => f.length > 0)
+            .map((src) => (
+              <img key={`image-${src}`} src={`/contents${src}`} alt={description} />
+            ))}
           <p>
             <a href={link}>Original post</a>
           </p>

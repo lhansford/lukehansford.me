@@ -1,24 +1,21 @@
-import React from "react";
+import React from 'react';
 
 import styles from './Footer.module.css';
 
-interface IProps {}
-
-
-const Footer = ({}: IProps): JSX.Element => (
+const Footer = (): JSX.Element => (
   <footer>
     <div className="footer">
       <a href="http://twitter.com/lukehansford" rel="me">
-        <i className="fa fa-twitter fa-3x"></i>
+        <i className="fa fa-twitter fa-3x" />
       </a>
       <a href="http://github.com/lhansford" rel="me">
-        <i className="fa fa-github fa-3x"></i>
+        <i className="fa fa-github fa-3x" />
       </a>
       <a href="http://soundcloud.com/dallol">
-        <i className="fa fa-soundcloud fa-3x"></i>
+        <i className="fa fa-soundcloud fa-3x" />
       </a>
       <a href="/feed.xml">
-        <i className="fa fa-rss fa-3x"></i>
+        <i className="fa fa-rss fa-3x" />
       </a>
     </div>
     <div className="h-card">
@@ -33,8 +30,7 @@ const Footer = ({}: IProps): JSX.Element => (
         </a>
       </p>
       <p className={styles.location}>
-        <span className="p-locality">Stockholm</span>,
-        <span className="p-country-name">Sweden</span>
+        <span className="p-locality">Stockholm</span>,<span className="p-country-name">Sweden</span>
       </p>
       <p className={styles.sourceCode}>
         <a href="https://github.com/lhansford/lukehansford.me">

@@ -1,4 +1,4 @@
-import Page from "../components/Page/Page";
+import Page from '../components/Page/Page';
 
 export default function Music() {
   return (
@@ -12,21 +12,17 @@ export default function Music() {
         <li>
           <a target="_blank" href="files/dallol-sfx-pack-1.zip">
             SFX Pack 1
-          </a>{" "}
-          - 8 sound effects created using modular synth. These are used in the
-          Klinify application and free for reuse elsewhere.
+          </a>{' '}
+          - 8 sound effects created using modular synth. These are used in the Klinify application
+          and free for reuse elsewhere.
         </li>
       </ul>
 
       <h2>Trig</h2>
-      <p>
-        More beat driven work, for the most part made on modular synthesizers.
-      </p>
+      <p>More beat driven work, for the most part made on modular synthesizers.</p>
       <ul>
         <li>
-          <a href="https://www.youtube.com/channel/UCVV9_vidM2hGWTtiexBL0dw">
-            Youtube
-          </a>
+          <a href="https://www.youtube.com/channel/UCVV9_vidM2hGWTtiexBL0dw">Youtube</a>
         </li>
         <li>
           <a href="https://soundcloud.com/trigsound">Soundcloud</a>

@@ -1,18 +1,14 @@
-import Page from "../../components/Page/Page";
-import Post from "../../components/Post/Post";
+import Page from '../../components/Page/Page';
+import Post from '../../components/Post/Post';
 import {
   ContentType,
   IProject,
   getContentItem,
   IContentItem,
   getContentPaths,
-} from "../../helpers/content";
+} from '../../helpers/content';
 
-export default function Project({
-  project,
-}: {
-  project: IContentItem<IProject>;
-}) {
+export default function Project({ project }: { project: IContentItem<IProject> }) {
   return (
     <Page title={project.indexData.title}>
       <Post

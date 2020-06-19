@@ -1,7 +1,7 @@
-import App from 'next/app'
+import App from 'next/app';
 
-import '../css/main.css'
-import '../css/font-awesome-4.2.0/css/font-awesome.min.css'
+import '../css/main.css';
+import '../css/font-awesome-4.2.0/css/font-awesome.min.css';
 
 // function MyApp({ Component, pageProps }) {
 //   return <Component {...pageProps} />

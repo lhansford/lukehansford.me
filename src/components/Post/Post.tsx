@@ -1,7 +1,7 @@
-import React from "react";
-import { format, parseISO } from "date-fns";
-import Markdown from "markdown-to-jsx";
-import { DiscussionEmbed } from "disqus-react";
+import React from 'react';
+import { format, parseISO } from 'date-fns';
+import Markdown from 'markdown-to-jsx';
+import { DiscussionEmbed } from 'disqus-react';
 
 interface IProps {
   title: string;
@@ -17,7 +17,7 @@ const Post = ({ title, content, date, url, id }: IProps): JSX.Element => (
       <h1 className="p-name">{title}</h1>
       <div className="post-header__date">
         <time className="dt-published" dateTime={parseISO(date).toISOString()}>
-          {format(parseISO(date), "MMM d, y")}
+          {format(parseISO(date), 'MMM d, y')}
         </time>
       </div>
       <div className="e-content">
@@ -28,9 +28,9 @@ const Post = ({ title, content, date, url, id }: IProps): JSX.Element => (
     <DiscussionEmbed
       shortname="lukehansford"
       config={{
-        url: url,
+        url,
         identifier: id,
-        title: title,
+        title,
       }}
     />
   </>
