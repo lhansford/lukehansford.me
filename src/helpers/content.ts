@@ -41,6 +41,8 @@ function parseIndexData<T>(directory: string): T {
       return { ...obj, [key]: rest.join(':').trim() };
     }, {});
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
   return { content: parts[2].trim(), ...attributes };
 }
 
