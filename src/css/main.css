@@ -95,25 +95,13 @@ nav li {
 
 .content a {
 	color: #37474f;
-	text-decoration: none;
 	position: relative;
-}
-
-.content a:before {
-	content: '';
-	border-bottom: solid 1px #37474f;
-	position: absolute;
-	bottom: 0; left: 0;
-	width: 100%;
-}
-
-.content a:hover:before {
-	border-bottom: solid thin #FFA726;
-}
-
-.content a:before {
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
+}
+
+.content a:hover {
+	text-decoration-color: #FFA726;
 }
 
 .blog-post iframe {
