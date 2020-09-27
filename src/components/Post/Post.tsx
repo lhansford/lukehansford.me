@@ -24,6 +24,15 @@ const Post = ({ title, content, date, url, id }: IProps): JSX.Element => (
         <Markdown>{content}</Markdown>
       </div>
     </article>
+    <aside>
+      <p style={{ fontStyle: 'italic' }}>
+        <a
+          href={`https://github.com/lhansford/lukehansford.me/commits/master/public/contents/notes/${id}/index.md`}
+        >
+          Check out how this note has changed over time here.
+        </a>
+      </p>
+    </aside>
 
     <DiscussionEmbed
       shortname="lukehansford"
