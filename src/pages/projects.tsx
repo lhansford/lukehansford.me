@@ -10,7 +10,7 @@ export default function Projects({ projects }: { projects: IContentItem<IProject
         {projects.map(({ directoryName, indexData: { title, date, description } }) => (
           <li key={directoryName}>
             <p>
-              <a href={`/projects/${directoryName}`}>{`${title} (${getYear(parseISO(date))}`}</a>
+              <a href={`/projects/${directoryName}`}>{`${title} (${getYear(parseISO(date))})`}</a>
             </p>
             <p>
               <em>{description}</em>

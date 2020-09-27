@@ -10,13 +10,6 @@ export default function StockholmRestaurants(): JSX.Element {
         mastering its cuisine, and 3 stars means that it&apos;s one of the best meals I&apos;ve ever
         had. The pricing is more of a gut feel thing at the moment.
       </p>
-      <p>
-        Inspired by{' '}
-        <a href="https://maxistentialism.com/chicago/">
-          Max Temkin&apos;s Chicago restaurants list
-        </a>
-        .
-      </p>
       <iframe
         className="airtable-embed"
         src="https://airtable.com/embed/shr6AVejy9iqgHcgr?backgroundColor=red"
