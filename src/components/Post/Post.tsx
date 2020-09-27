@@ -9,9 +9,10 @@ interface IProps {
   date: string;
   url: string;
   id: string;
+  showHistory?: boolean;
 }
 
-const Post = ({ title, content, date, url, id }: IProps): JSX.Element => (
+const Post = ({ title, content, date, url, id, showHistory = false }: IProps): JSX.Element => (
   <>
     <article className="blog-post h-entry">
       <h1 className="p-name">{title}</h1>
@@ -24,16 +25,17 @@ const Post = ({ title, content, date, url, id }: IProps): JSX.Element => (
         <Markdown>{content}</Markdown>
       </div>
     </article>
-    <aside>
-      <p style={{ fontStyle: 'italic' }}>
-        <a
-          href={`https://github.com/lhansford/lukehansford.me/commits/master/public/contents/notes/${id}/index.md`}
-        >
-          Check out how this note has changed over time here.
-        </a>
-      </p>
-    </aside>
-
+    {showHistory && (
+      <aside>
+        <p style={{ fontStyle: 'italic' }}>
+          <a
+            href={`https://github.com/lhansford/lukehansford.me/commits/master/public/contents/notes/${id}/index.md`}
+          >
+            Check out how this note has changed over time here.
+          </a>
+        </p>
+      </aside>
+    )}
     <DiscussionEmbed
       shortname="lukehansford"
       config={{

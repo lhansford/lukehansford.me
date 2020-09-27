@@ -17,7 +17,8 @@ export default function Note({ note }: { note: IContentItem<INote> }) {
         content={note.indexData.content}
         date={note.indexData.date}
         id={note.directoryName}
-        url={`lukehansford.me/notes/${note.directoryName}`}
+        url={`http://lukehansford.me/notes/${note.directoryName}`}
+        showHistory
       />
     </Page>
   );

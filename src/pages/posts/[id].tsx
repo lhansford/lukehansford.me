@@ -17,7 +17,7 @@ export default function Post({ post }: { post: IContentItem<IBlogPost> }) {
         content={post.indexData.content}
         date={post.indexData.date}
         id={post.directoryName}
-        url={`lukehansford.me/posts/${post.directoryName}`}
+        url={`http://lukehansford.me/posts/${post.directoryName}`}
       />
     </Page>
   );
