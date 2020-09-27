@@ -12,6 +12,8 @@ top of the file.
 I'm personally a little against tampering with an open format like Markdown, but for my own personal
 notes and posts I'm not too concerned.
 
+For parsing in JS, [grey-matter](https://github.com/jonschlinkert/gray-matter) seems to work well.
+
 ## References
 
 [Jekyll Docs - Front Matter](https://jekyllrb.com/docs/front-matter/)
