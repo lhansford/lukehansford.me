@@ -25,7 +25,7 @@ const Page = ({ children, title }: IProps): JSX.Element => (
       />
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js" />
       <script>hljs.initHighlightingOnLoad();</script>
-      <title>Luke Hansford -{title}</title>
+      <title>Luke Hansford - {title}</title>
     </Head>
     <header>
       <div className="page-title">
