@@ -10,8 +10,7 @@ export default function Home() {
       <p>
         I&apos;m also the founder of the internet radio station{' '}
         <a href="https://frequency.asia">Frequency Asia</a>, co-founder of independent music
-        label/magazine
-        <a href="http://jingweir.tumblr.com/">Jingweir</a>, and an{' '}
+        label/magazine <a href="http://jingweir.tumblr.com/">Jingweir</a>, and an{' '}
         <a href="http://www.lukehansford.me/music.html">intermittent musician</a>.
       </p>
       <p>
