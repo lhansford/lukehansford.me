@@ -4,8 +4,6 @@ author: luke
 date: 2020-10-17 20:00
 template: post.hbs
 ---
-Intro
-
 ## Reading
 
 ### [An Honest Review of Gatsby](https://cra.mr/an-honest-review-of-gatsby/)
