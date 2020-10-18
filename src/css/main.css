@@ -28,6 +28,14 @@ p {
 	margin-bottom: 2em;
 }
 
+blockquote {
+	font-style: italic;
+	border-left: 2px solid #546e7a;
+	padding-left: 1rem;
+	margin-left: 1rem;
+	margin-right: 2rem;
+}
+
 
 .container {
 	max-width: 740px;
