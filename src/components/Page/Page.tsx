@@ -27,6 +27,11 @@ const Page = ({ children, title }: IProps): JSX.Element => (
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js" />
         <script>hljs.initHighlightingOnLoad();</script>
         <title>Luke Hansford - {title}</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <header>
         <div className="page-title">
