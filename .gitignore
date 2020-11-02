@@ -30,3 +30,9 @@ yarn-error.log*
 .env.production.local
 
 /.vscode
+
+
+# PROJECT SPECIFIC
+
+# This is auto-generated
+/public/feed.xml
