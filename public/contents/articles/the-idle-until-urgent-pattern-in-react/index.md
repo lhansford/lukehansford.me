@@ -157,18 +157,18 @@ We opted to test this out on one of our most heavily visited pages on fishbrain.
 pages ([here's an example of one such page](https://fishbrain.com/fishing-waters/Icur1OcV/brisbane-river)). This
 is what the flamegraph for the React render looked like:
 
-![Flamegraph if initial render](initial.png)
+![Flamegraph if initial render](/contents/articles/the-idle-until-urgent-pattern-in-react/initial.png)
 
 Some of the components run so deep that they wouldn't fit on the screen. A particularly bad offender
 was the Tabs component:
 
-![Flamegraph of Tabs](tabs.png)
+![Flamegraph of Tabs](/contents/articles/the-idle-until-urgent-pattern-in-react/tabs.png)
 
 From this we we're able to identify 4 particular components that were taking a long time to
 hydrate while not being something that need render immediately for any user benefit. Wrapping
 these components led to a decreased from approximately 450ms to hydrate to <100ms!
 
-![Flamegraph after adding IdleUntilUrgent](with-idle-until-urgent.png)
+![Flamegraph after adding IdleUntilUrgent](/contents/articles/the-idle-until-urgent-pattern-in-react/with-idle-until-urgent.png)
 
 We also found that the IdleUntilUrgent components would hydrate pretty quickly after the initial
 hydration (usually less than 0.5s), so only an extremely quick user would be able to interact with

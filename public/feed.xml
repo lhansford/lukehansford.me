@@ -4,15 +4,15 @@
         <title>Luke Hansford</title>
         <link>http://lukehansford.me</link>
         <description>Experiments and notes from Luke Hansford.</description>
-        <lastBuildDate>Sat, 13 Jun 2020 10:57:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Nov 2020 12:59:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>All rights reserved 2020, Luke Hansford</copyright>
         <item>
             <title><![CDATA[Big Muff Eurorack Conversion, Pt. 1]]></title>
-            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-1/</link>
-            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-1/</guid>
+            <link>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-1/</link>
+            <guid>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-1/</guid>
             <pubDate>Tue, 16 Jan 2018 22:13:00 GMT</pubDate>
             <description><![CDATA[<p><em>First up, a caution: this is my first non-guided DIY modular synth project and I'm probably do any number 
 of things incorrectly, so take all of this with a grain of salt.</em></p>
@@ -54,8 +54,8 @@ have been "working right". So my next task is to rectify that and return it to i
         </item>
         <item>
             <title><![CDATA[Big Muff Eurorack Conversion, Pt. 2]]></title>
-            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-2/</link>
-            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-2/</guid>
+            <link>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-2/</link>
+            <guid>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-2/</guid>
             <pubDate>Sat, 20 Jan 2018 22:13:00 GMT</pubDate>
             <description><![CDATA[<p><em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-1/">Check out part one first!</a></em></p>
 <h2 id="newpotentiometers">New Potentiometers</h2>
@@ -77,8 +77,8 @@ it worked out fine. Check out the crunchy results in the clip below.</p>
         </item>
         <item>
             <title><![CDATA[Big Muff Eurorack Conversion, Pt. 3]]></title>
-            <link>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-3/</link>
-            <guid>http://lukehansford.me/articles/big-muff-eurorack-conversion-part-3/</guid>
+            <link>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-3/</link>
+            <guid>http://lukehansford.me/posts/big-muff-eurorack-conversion-part-3/</guid>
             <pubDate>Sun, 04 Feb 2018 11:50:00 GMT</pubDate>
             <description><![CDATA[<p><em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-1/">Part One</a></em>
 <em><a href="http://www.lukehansford.me/articles/big-muff-eurorack-conversion-part-2/">Part Two</a></em></p>
@@ -108,8 +108,8 @@ volume as well, though I'm not certain yet).</p>]]></description>
         </item>
         <item>
             <title><![CDATA[DRY Unit Tests in Javascript]]></title>
-            <link>http://lukehansford.me/articles/dry-unit-tests-in-javascript/</link>
-            <guid>http://lukehansford.me/articles/dry-unit-tests-in-javascript/</guid>
+            <link>http://lukehansford.me/posts/dry-unit-tests-in-javascript/</link>
+            <guid>http://lukehansford.me/posts/dry-unit-tests-in-javascript/</guid>
             <pubDate>Tue, 02 Jun 2020 09:00:00 GMT</pubDate>
             <description><![CDATA[<p>A couple of years ago I started working with a Ruby on Rails codebase and was stunned
 by how more well thought out the test were in comparison to Javascript codebases I'd worked with. In
@@ -194,8 +194,8 @@ reusable test I don't have any excuse not to do proper TDD!</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 23rd November, 2014]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2014-11-23/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2014-11-23/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2014-11-23/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2014-11-23/</guid>
             <pubDate>Sun, 23 Nov 2014 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>This the first of (hopefully) many weekly roundups of the content I consume.
 While I'm pleased to share this, I'm also starting to become more interested in
@@ -243,8 +243,8 @@ trainspotting to be done here for Fugazi fans is the selling point.</p>]]></desc
         </item>
         <item>
             <title><![CDATA[Ephemera - 7th December, 2014]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2014-12-07/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2014-12-07/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2014-12-07/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2014-12-07/</guid>
             <pubDate>Sun, 07 Dec 2014 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>Well this undertaking has not been as weekly as I would have liked. To try to make up for that, this entry covers two weeks of reading and listening (I watched things, but nothing special enough to recommend).</p>
 <h2 id="reading">Reading</h2>
@@ -267,8 +267,8 @@ I picked it up but couldn't get through it. There was something about it that wa
         </item>
         <item>
             <title><![CDATA[Ephemera - 14th December, 2014]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2014-12-14/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2014-12-14/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2014-12-14/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2014-12-14/</guid>
             <pubDate>Sun, 14 Dec 2014 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>Short and sweet as I'm going to Vietnam in a few hours. I most likely won't be able to post anything for two weeks, so you'll have to subsist on end of year lists in the mean time.</p>
 <h2 id="reading">Reading</h2>
@@ -294,8 +294,8 @@ I picked it up but couldn't get through it. There was something about it that wa
         </item>
         <item>
             <title><![CDATA[Ephemera - 4th January, 2015]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2015-01-04/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2015-01-04/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2015-01-04/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2015-01-04/</guid>
             <pubDate>Sun, 04 Jan 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>There hasn't been a lot of new things to see, read, or hear in the last few weeks, being the holiday season and all. Here is what I scrounged up.</p>
 <h2 id="reading">Reading</h2>
@@ -318,8 +318,8 @@ have this as a counterpoint to the use of drones for warfare.</p>]]></descriptio
         </item>
         <item>
             <title><![CDATA[Ephemera - 1st February, 2015]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2015-02-01/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2015-02-01/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2015-02-01/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2015-02-01/</guid>
             <pubDate>Sun, 01 Feb 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>I've been letting this slide for the last few weeks, so time for a roundup of what I've been consuming and enjoying .</p>
 <h2 id="reading">Reading</h2>
@@ -347,8 +347,8 @@ wholeheartedly recommend it.</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 15th January, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-01-15/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-01-15/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-01-15/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-01-15/</guid>
             <pubDate>Mon, 15 Jan 2018 22:00:00 GMT</pubDate>
             <description><![CDATA[<p>It's been a while since I've done an entry here. I'm going to start dipping a toe back into 
 blogging, beginning with writing these old weekly round-ups! I doubt anyone is reading at the moment, 
@@ -366,8 +366,8 @@ can get started, but in the meantime it's a wonderful introduction into the inne
         </item>
         <item>
             <title><![CDATA[Ephemera - 29th January, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-01-29/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-01-29/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-01-29/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-01-29/</guid>
             <pubDate>Mon, 29 Jan 2018 09:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="theline6dl4isquietlythemostimportantguitarpedalofthelast20yearshttpspitchforkcomthepitchtheline6dl4isquietlythemostimportantguitarpedalofthelast20years"><a href="https://pitchfork.com/thepitch/the-line-6-dl4-is-quietly-the-most-important-guitar-pedal-of-the-last-20-years/">The Line 6 DL4 Is Quietly the Most Important Guitar Pedal of the Last 20 Years</a></h3>
@@ -392,8 +392,8 @@ Eurorack module and I think it may have planted a seed in me to do one myself so
         </item>
         <item>
             <title><![CDATA[Ephemera - 5th February, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-02-05/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-02-05/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-02-05/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-02-05/</guid>
             <pubDate>Mon, 05 Feb 2018 09:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="howireviewcodehttpsengineeringtumblrcompost170040992289howireviewcode"><a href="https://engineering.tumblr.com/post/170040992289/how-i-review-code">How I review code</a></h3>
@@ -409,8 +409,8 @@ afrofuturist techno.</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 12th February, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-02-12/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-02-12/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-02-12/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-02-12/</guid>
             <pubDate>Mon, 12 Feb 2018 16:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="theriseofchinaandthefallofthefreetrademythhttpswwwnytimescom20180207magazinetheriseofchinaandthefallofthefreetrademythhtml"><a href="https://www.nytimes.com/2018/02/07/magazine/the-rise-of-china-and-the-fall-of-the-free-trade-myth.html">The Rise of China and the Fall of the ‘Free Trade’ Myth</a></h3>
@@ -432,8 +432,8 @@ first use and I've been feeling a bit nervous about it. This tutorial has defini
         </item>
         <item>
             <title><![CDATA[Ephemera - 5th March, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-03-05/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-03-05/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-03-05/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-03-05/</guid>
             <pubDate>Mon, 05 Mar 2018 09:00:00 GMT</pubDate>
             <description><![CDATA[<p>I missed a few weeks there - Chinese New Year has a tendency to disrupt my routines - but I'm back at it now!</p>
 <h2 id="reading">Reading</h2>
@@ -457,8 +457,8 @@ I've heard in the last decade (with the big caveat that I don't listen to much h
         </item>
         <item>
             <title><![CDATA[Ephemera - 5th April, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-04-05/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-04-05/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-04-05/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-04-05/</guid>
             <pubDate>Thu, 05 Apr 2018 08:00:00 GMT</pubDate>
             <description><![CDATA[<p>Well I broke the chain again, though to be honest it was more just to a lack of anything to talk about rather
 than procrastinating/forgetting to write something like usual.</p>
@@ -476,8 +476,8 @@ it's insight into Hawking's political activism, an area of his life that I was u
         </item>
         <item>
             <title><![CDATA[Ephemera - 6th May, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-05-06/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-05-06/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-05-06/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-05-06/</guid>
             <pubDate>Sun, 06 May 2018 21:00:00 GMT</pubDate>
             <description><![CDATA[<p>Today I've got a bunch of short recommendations as I've been procrastinating compiling them for the last few weeks.</p>
 <h2 id="reading">Reading</h2>
@@ -507,8 +507,8 @@ uneven, and, after reading this article (and the Hacker News discussion around i
         </item>
         <item>
             <title><![CDATA[Ephemera - 17th June, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-06-17/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-06-17/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-06-17/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-06-17/</guid>
             <pubDate>Sun, 17 Jun 2018 08:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="utcisenoughforeveryonerighthttpszachholmancomtalkutcisenoughforeveryoneright"><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone…right?</a></h3>
@@ -521,8 +521,8 @@ issue of button placement in application UIs. The <a href="https://news.ycombina
         </item>
         <item>
             <title><![CDATA[Ephemera - 24th June, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-06-24/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-06-24/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-06-24/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-06-24/</guid>
             <pubDate>Sun, 24 Jun 2018 08:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="whathedoeswithwhathehasblawaninterviewedhttpthequietuscomarticles24794blawanjamierobertsinterview"><a href="http://thequietus.com/articles/24794-blawan-jamie-roberts-interview">What He Does With What He Has: Blawan Interviewed</a></h3>
@@ -541,8 +541,8 @@ issue can yield results.</p>
         </item>
         <item>
             <title><![CDATA[Ephemera - 1st July, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-07-01/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-07-01/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-07-01/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-07-01/</guid>
             <pubDate>Sun, 01 Jul 2018 08:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="memorizingthesethreestatisticswillhelpyouunderstandtheworldhttpswwwgatesnotescomdevelopmentmaxroserthreefactseveryoneshouldknow"><a href="https://www.gatesnotes.com/Development/Max-Roser-three-facts-everyone-should-know">Memorizing these three statistics will help you understand the world</a></h3>
@@ -554,8 +554,8 @@ and offset the general pessimism that seems to be the trend at the moment.</p>]]
         </item>
         <item>
             <title><![CDATA[Ephemera - 2nd September, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-09-02/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-09-02/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-09-02/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-09-02/</guid>
             <pubDate>Sun, 02 Sep 2018 13:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="annoyedbyrestaurantplaylistsamastermusicianmadehisownhttpswwwnytimescom20180723diningrestaurantmusicplaylistsryuichisakamotohtml"><a href="https://www.nytimes.com/2018/07/23/dining/restaurant-music-playlists-ryuichi-sakamoto.html">Annoyed by Restaurant Playlists, a Master Musician Made His Own</a></h3>
@@ -569,8 +569,8 @@ and offset the general pessimism that seems to be the trend at the moment.</p>]]
         </item>
         <item>
             <title><![CDATA[Ephemera - 23rd September, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-09-23/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-09-23/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-09-23/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-09-23/</guid>
             <pubDate>Sun, 23 Sep 2018 13:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="howtodealwithdirtysideeffectsinyourpurefunctionaljavascripthttpsjrsinclaircomarticles2018howtodealwithdirtysideeffectsinyourpurefunctionaljavascript"><a href="https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/">How To Deal with Dirty Side Effects in Your Pure Functional Javascript</a></h3>
@@ -582,8 +582,8 @@ coding discipline.</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 1st October, 2018]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2018-10-01/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2018-10-01/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2018-10-01/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2018-10-01/</guid>
             <pubDate>Mon, 01 Oct 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="watching">Watching</h2>
 <h3 id="buildingimpossibleprogramshttpsjvnscablog20180918buildimpossibleprograms"><a href="https://jvns.ca/blog/2018/09/18/build-impossible-programs/">Building Impossible Programs</a></h3>
@@ -592,8 +592,8 @@ coding discipline.</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 19th January, 2019]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2019-01-19/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2019-01-19/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2019-01-19/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2019-01-19/</guid>
             <pubDate>Sat, 19 Jan 2019 13:35:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="wehavethetechnologybuildingaeuroracksystemforlivetechnohttpswwwnoiseengineeringusblog201914wehavethetechnologybuildingaeuroracksystemforlivetechno"><a href="https://www.noiseengineering.us/blog/2019/1/4/we-have-the-techno-logy-building-a-eurorack-system-for-live-techno">We have the techno-logy: building a Eurorack system for live techno</a></h3>
@@ -611,8 +611,8 @@ as in Foundryside, I still found it an enjoyable read.</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 1st February, 2019]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2019-01-31/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2019-01-31/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2019-01-31/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2019-01-31/</guid>
             <pubDate>Fri, 01 Feb 2019 14:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="graduallythensuddenlyhttpswwwlinkedincompulsegraduallysuddenlytimoreilly"><a href="https://www.linkedin.com/pulse/gradually-suddenly-tim-o-reilly/">Gradually, Then Suddenly</a></h3>
@@ -637,8 +637,8 @@ Detroit and Chicago (and later, Manchester).</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Ephemera - 30th May, 2019]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2019-05-30/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2019-05-30/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2019-05-30/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2019-05-30/</guid>
             <pubDate>Thu, 30 May 2019 13:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="typescript30theunknowntypehttpsmariusschulzcomblogtypescript30theunknowntype"><a href="https://mariusschulz.com/blog/typescript-3-0-the-unknown-type">TypeScript 3.0: The unknown Type</a></h3>
@@ -664,8 +664,8 @@ plus some great new ideas on how I could use them in my own work.</p>]]></descri
         </item>
         <item>
             <title><![CDATA[Ephemera - 8th December, 2019]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2019-12-08/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2019-12-08/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2019-12-08/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2019-12-08/</guid>
             <pubDate>Sun, 08 Dec 2019 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>I've been a little sporadic with these posts this year. Maybe next year I can be more consistent…or
 maybe not.</p>
@@ -689,8 +689,8 @@ but I've also grown to love his yearly round up of weird things he learnt in the
         </item>
         <item>
             <title><![CDATA[Ephemera - 15th December, 2019]]></title>
-            <link>http://lukehansford.me/articles/ephemera-2019-12-15/</link>
-            <guid>http://lukehansford.me/articles/ephemera-2019-12-15/</guid>
+            <link>http://lukehansford.me/posts/ephemera-2019-12-15/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2019-12-15/</guid>
             <pubDate>Sun, 15 Dec 2019 14:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="reading">Reading</h2>
 <h3 id="howwilliamgibsonkeepshissciencefictionrealhttpswwwnewyorkercommagazine20191216howwilliamgibsonkeepshissciencefictionreal"><a href="https://www.newyorker.com/magazine/2019/12/16/how-william-gibson-keeps-his-science-fiction-real#">How William Gibson Keeps His Science Fiction Real</a></h3>
@@ -698,9 +698,57 @@ but I've also grown to love his yearly round up of weird things he learnt in the
             <author>mail@lukehansford.me (Luke Hansford)</author>
         </item>
         <item>
+            <title><![CDATA[Ephemera - 28th June, 2020]]></title>
+            <link>http://lukehansford.me/posts/ephemera-2020-06-28/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2020-06-28/</guid>
+            <pubDate>Sun, 28 Jun 2020 13:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="formeremployeesaccusecardsagainsthumanityofaracistandsexistofficeculturehttpswwwpolygoncom202062321300435cardsagainsthumanitymaxtemkinreport"><a href="https://www.polygon.com/2020/6/23/21300435/cards-against-humanity-max-temkin-report">Former employees accuse Cards Against Humanity of a racist and sexist office culture</a></h3>
+<p>This article goes into the accusations of racism and sexism at Cards Against Humanity, specifically regarding co-founder Max Temkin. While CAH definitely hasn't aged well and I probably wouldn't feel super comfortable playing it these days, this hit me a little hard because for the last few years one of my favourite podcasts has been <a href="http://dobyfriday.com/">Do By Friday</a>, of which Temkin was a co-host.</p>
+<p>I'm not one to wring hands too much when a cultural figure is exposed for their wrongdoings - in a world overwhelmed with quality music, film, and other forms of media I don't really see why anyone feels the need to argue that there's nothing wrong with enjoying a R Kelly song or Louis CK bit. But there's something more personal about podcasts that made this hit home a little for me. It was interesting to hear Temkin's co-hosts grapple with the situation in the episode after the revelation (it seems as if he is ghosting everyone?), and I'm glad they addressed it upfront and honestly.</p>
+<h3 id="whenfriendsfuckupandsodoihttpswhateverscalzicom20200625whenfriendsfuckupandsodoi"><a href="https://whatever.scalzi.com/2020/06/25/when-friends-fuck-up-and-so-do-i/">When Friends Fuck Up, and So Do I</a></h3>
+<p>Sci-fi author John Scalzi wrote this raw and honest post about his possible complicity/complacency in the above situation and a few other similar ones.</p>
+<h3 id="twitterthreadonwritingprocesseshttpstwittercommikeduncanstatus1273261668315824134"><a href="https://twitter.com/mikeduncan/status/1273261668315824134">Twitter thread on writing processes</a></h3>
+<p>Author/podcaster/historian Mike Duncan lays out his process for writing his books and podcast episodes in this Twitter thread. Basically it boils down to breaking everything into atomic ideas, from book, to chapters, down to paragraphs. I'm looking forward to reading his biography of the Marquis de Lafayette with potential paragraphs such as "Eligible Bachelor!", "Army is fucked", "I'll buy a boat", and "Fuck the Frenchies". For those of you unfamiliar with Mike Duncan, his <a href="https://www.revolutionspodcast.com">Revolutions Podcast</a> is my vote for the best history podcast out there.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="juneteenthbandcamplistbysurgeonhttpsbuymusicclublistsurgeonbandcampjuneteenthlist"><a href="https://buymusic.club/list/surgeon-bandcamp-juneteenth-list">Juneteenth Bandcamp list by Surgeon</a></h3>
+<p>Techno artist Surgeon shares some of his favourite music from Black artists on Bandcamp. The techno recommendations are great (I picked up releases by Claude Young Jr and Robert Hood), but there's some other classics here like Kamasi Washington's 'The Epic', A Guy Called Gerald's 'Black Secret Technology', and Actress' collaboration with the London Contemporary Orchestra.</p>
+<h2 id="watching">Watching</h2>
+<h3 id="howbarkerbuiltaplatereverbforpercussiveexperimentshttpswwwyoutubecomwatchvc9qpmqhuput127s"><a href="https://www.youtube.com/watch?v=C9-qpMqhuPU&t=127s">How Barker built a plate reverb for percussive experiments</a></h3>
+<p>Barker has been one of my favourite electronic musicians of the last few years. This video goes in to some of his production techniques, specifically the use of physical reverb modelling which seems to be one of secrets behind his unique sound.</p>
+<h2 id="givingto">Giving To</h2>
+<p>This is a new section for my Ephemera posts. I'm trying to make more of an effort to donate to charities and contribute to society in other ways (I might write an article about that some time), and I thought it'd be nice to share a little about it here.</p>
+<h3 id="aboriginallegalservicenswacthttpswwwalsnswactorgau"><a href="https://www.alsnswact.org.au/">Aboriginal Legal Service (NSW/ACT)</a></h3>
+<p>The BLM uprisings in the US recently inspired similar action around the world, including in Australia where deaths in custody has long been an issue for Aboriginal Australians. While I'd like to imagine I'd be marching in support if I was back in Australia, I'm currently on the other side of the world. My small contribution has been to give to the ALS (NSW/ACT), the pioneering organisation providing legal support to the Aboriginal community.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[Ephemera - 17th October, 2020]]></title>
+            <link>http://lukehansford.me/posts/ephemera-2020-10-17/</link>
+            <guid>http://lukehansford.me/posts/ephemera-2020-10-17/</guid>
+            <pubDate>Sat, 17 Oct 2020 18:00:00 GMT</pubDate>
+            <description><![CDATA[<h2 id="reading">Reading</h2>
+<h3 id="anhonestreviewofgatsbyhttpscramranhonestreviewofgatsby"><a href="https://cra.mr/an-honest-review-of-gatsby/">An Honest Review of Gatsby</a></h3>
+<p>I kind of wish I'd read this article from Sentry before trying to migrate the Fishbrain tech blog from Medium to Gatsby. While there are some cool aspects of Gatsby, the whole "everything is Graphql" approach feels way overkill for a blog.</p>
+<h3 id="cityofamsterdamalgorithmregisterhttpsalgoritmeregisteramsterdamnlenairegister"><a href="https://algoritmeregister.amsterdam.nl/en/ai-register/">City of Amsterdam Algorithm Register</a></h3>
+<p>I love this concept of an algorithm registry that the City of Amsteram has. Algorithms are a bit of a boogyman, but at the end of the day its just a way of rearranging and transforming data. I'd be curious if anyone knows of apps that do something similar? I'd love to see something like a Facebook or Amazon algorithm registry!</p>
+<h3 id="oncallshouldntsuckaguideformanagershttpscharitywtf20201003oncallshouldntsuckaguideformanagers"><a href="https://charity.wtf/2020/10/03/on-call-shouldnt-suck-a-guide-for-managers/">On Call Shouldn’t Suck: A Guide For Managers</a></h3>
+<p>Charity Majors is a continual font of knowledge for an inexperienced engineering manager such as myself. While I'm not directly involved in my company's on call setup, I am tangentially involved, and I found this article enlightening. I can definitely see how a poor on call situation could easily death spiral an engineering team. As Charity puts it:</p>
+<blockquote>
+  <p>And if your on call experience is mandatory and severely life-impacting, and if you don’t take this dead seriously and fix it ASAP? I hope your team will leave you, and go find a place that truly values their time and sleep.</p>
+</blockquote>
+<h2 id="listening">Listening</h2>
+<h3 id="autechresignhttpsautechrebandcampcomalbumsign"><a href="https://autechre.bandcamp.com/album/sign">Autechre - SIGN</a></h3>
+<p>It's Autechre, so you can't go too wrong! It starts off in the vein of their NTS Sessions form a few years back, but pretty quickly dives into ambient-is tunes that I wouldn't necessarily associate the group with. It's lovely stuff though.</p>
+<h3 id="scanneranascenthttpsdinorgukalbumanascentdin63"><a href="https://din.org.uk/album/an-ascent-din63">Scanner - An Ascent</a></h3>
+<p>I'm mostly familiar with Scanner via his appearances on a bunch of music tech webcasts and his early 90s IDM tracks. His recent work that I'd listened to seemed to be more towards the performance art side of things - something which I appreciate but don't tend to return to much. <em>An Ascent</em>, however, is an amazing collection of ambient soundscapes. I'm all the more impressed that this is done completely on modular.</p>
+<p>One thing I've noticed as I've built out my own modular system over the years is that my ears have become trained to identify how sounds were made, thus removing some of the air of mystery that electronic music has. This album, however, is by no means obvious in it's construction, and I think that's why it appeals to me so much at this point in time.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
             <title><![CDATA[NaNoCroSoMo]]></title>
-            <link>http://lukehansford.me/articles/nanocrosomo/</link>
-            <guid>http://lukehansford.me/articles/nanocrosomo/</guid>
+            <link>http://lukehansford.me/posts/nanocrosomo/</link>
+            <guid>http://lukehansford.me/posts/nanocrosomo/</guid>
             <pubDate>Wed, 26 Nov 2014 14:00:00 GMT</pubDate>
             <description><![CDATA[<p><a href="https://nanocrosomo.herokuapp.com/">NaNoCroSoMo</a> (National Novel Crowd Sourcing Month) is my take on <a href="http://nanowrimo.org/">NaNoWriMo</a> inspired by the work of those mentioned in the <a href="http://www.theverge.com/2014/11/25/7276157/nanogenmo-robot-author-novel">recent Verge article</a> covering the work of a number of programmers trying to use algorithms to generate novels. My implementation meets somewhere in the middle of these two. Every thirty seconds a computer generated word is added to the story. This word is selected using n-grams taken from the Google Books corpus.
 To add a human element, however, anyone can add their own word. Simply type a word and hit enter to add it to the story.</p>
@@ -709,8 +757,8 @@ To add a human element, however, anyone can add their own word. Simply type a wo
         </item>
         <item>
             <title><![CDATA[Resolutions for 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-2015/</guid>
             <pubDate>Thu, 01 Jan 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>I used to be a cynic in regards to new year resolutions. My line of thought was
 that if you really wanted to accomplish something you would just go ahead and do
@@ -760,8 +808,8 @@ that resolution.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, April 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-apr-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-apr-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-apr-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-apr-2015/</guid>
             <pubDate>Wed, 01 Apr 2015 13:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -793,8 +841,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, August 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-aug-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-aug-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-aug-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-aug-2015/</guid>
             <pubDate>Sat, 01 Aug 2015 13:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -826,8 +874,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, Feb 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-feb-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-feb-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-feb-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-feb-2015/</guid>
             <pubDate>Sun, 01 Feb 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -864,8 +912,8 @@ this in the hopes I've getting better at it.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, July 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-jul-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-jul-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-jul-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-jul-2015/</guid>
             <pubDate>Wed, 01 Jul 2015 13:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -897,8 +945,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, June 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-jun-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-jun-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-jun-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-jun-2015/</guid>
             <pubDate>Mon, 01 Jun 2015 13:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -930,8 +978,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, Mar 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-mar-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-mar-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-mar-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-mar-2015/</guid>
             <pubDate>Sun, 01 Mar 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -963,8 +1011,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, May 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-may-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-may-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-may-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-may-2015/</guid>
             <pubDate>Fri, 01 May 2015 13:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -996,8 +1044,8 @@ and do a writeup at the end of each month to see how I've gone.</p>
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, November 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-nov-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-nov-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-nov-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-nov-2015/</guid>
             <pubDate>Thu, 03 Dec 2015 14:00:00 GMT</pubDate>
             <description><![CDATA[<p>So at this point in time my new year resolutions have kind of fallen by the wayside. Some of them
 are unlikely to happen by the end of the year, while others I've lost interest in. I'm not going to
@@ -1011,8 +1059,8 @@ started playing around with <a href="http://www.fastcompany.com/3053036/how-to-b
         </item>
         <item>
             <title><![CDATA[The State of My Resolutions, September 2015]]></title>
-            <link>http://lukehansford.me/articles/resolutions-sep-2015/</link>
-            <guid>http://lukehansford.me/articles/resolutions-sep-2015/</guid>
+            <link>http://lukehansford.me/posts/resolutions-sep-2015/</link>
+            <guid>http://lukehansford.me/posts/resolutions-sep-2015/</guid>
             <pubDate>Tue, 08 Sep 2015 05:00:00 GMT</pubDate>
             <description><![CDATA[<p>In order to keep tabs on the progress of my resolutions for 2015, I'm going to try
 and do a writeup at the end of each month to see how I've gone.</p>
@@ -1040,6 +1088,156 @@ and do a writeup at the end of each month to see how I've gone.</p>
 <p>A mixed month in relation to this goal. I haven't been sleeping well as of late, so maybe I need to double down on this.</p>
 <h2 id="makemaps">Make maps</h2>
 <p>No progress.</p>]]></description>
+            <author>mail@lukehansford.me (Luke Hansford)</author>
+        </item>
+        <item>
+            <title><![CDATA[The Idle-Until-Urgent Pattern in React]]></title>
+            <link>http://lukehansford.me/posts/the-idle-until-urgent-pattern-in-react/</link>
+            <guid>http://lukehansford.me/posts/the-idle-until-urgent-pattern-in-react/</guid>
+            <pubDate>Sun, 01 Nov 2020 14:10:00 GMT</pubDate>
+            <description><![CDATA[<p>One thing I've been struggling with recently working on <a href="https://fishbrain.com">fishbrain.com</a> is
+the high cost of hydrating server rendered React. While server-side rendering brings us a lot of
+benefits, it does take a fair amount of time to hyrdate, which can be particularly frustrating if
+you're hydrating elements of the page that the user is not immediately going to interact with, or
+even possibly see.</p>
+<p>One potential work around is to use the Idle-Until-Urgent pattern. Philip Walton does a far better
+job than I can explaining the details of the pattern in <a href="https://philipwalton.com/articles/idle-until-urgent/">his blog post on the matter</a>, so
+I'd recommend checking that out, but the basic gist of the pattern is:</p>
+<ul>
+<li>to delay the execution of code until the browser not executing any code (this is the 'idle').</li>
+<li>allow some sort of trigger to execute the code before the idle stage if needed (this is the 'urgent').</li>
+</ul>
+<p>What this means for our React use case, is that we would delay hydration of a component either until
+the browser stops executing code, or, if the user interacts with the unhydrated element, we can
+hydrate it on demand. My implementation was initially based on <a href="https://dev.to/uzumakinarut0/optimizing-react-performance-part-i-n83">another great article from Kumar
+Swapnil</a>.</p>
+<h2 id="thecode">The code</h2>
+<p>This a component that will wrap around another React component to make it use the idle-until-urgent
+pattern:</p>
+<pre><code class="javascript language-javascript">import React, { useState, ReactNode, useEffect } from 'react';
+// This is a simple library we use to tell us if the code is running in Node or in a browser.
+import isNode from 'detect-node';
+
+export const IdleUntilUrgent = ({ children, htmlElement }) =&gt; {
+  const [callbackId, setCallbackId] = useState(null);
+  const [renderChild, setRenderChild] = useState(false);
+
+  useEffect(() =&gt; {
+    if (!isNode) {
+      if (typeof window.requestIdleCallback !== 'undefined') {
+        // https://caniuse.com/#search=requestIdleCallback
+        setCallbackId(
+          window.requestIdleCallback(() =&gt; {
+            setRenderChild(true);
+          }),
+        );
+      } else {
+        setTimeout(() =&gt; {
+          setRenderChild(true);
+        });
+      }
+    }
+  }, []);
+
+  if (!isNode &amp;&amp; !renderChild) {
+    // eslint-disable-next-line react/no-danger-with-children
+    return React.createElement(
+      htmlElement,
+      {
+        dangerouslySetInnerHTML: { __html: '' },
+        suppressHydrationWarning: true,
+        onClick: () =&gt; setRenderChild(true),
+      },
+      null,
+    );
+  }
+
+  // Cancel the already scheduled render, if any
+  if (!isNode &amp;&amp; callbackId) {
+    window.cancelIdleCallback(callbackId);
+  }
+
+  return children;
+};
+</code></pre>
+<p>In use it would look something like this:</p>
+<pre><code class="jsx language-jsx">&lt;IdleUntilUrgent htmlElement="button"&gt;
+  &lt;button&gt;Click me&lt;/button&gt;
+&lt;/IdleUntilUrgent&gt;
+</code></pre>
+<h2 id="breakingitdown">Breaking it down</h2>
+<p>First we store the two bits of state we need. A callback ID (so we can cancel the callback if needed),
+and a flag telling us if the child should be rendered or not.</p>
+<pre><code class="javascript language-javascript">const [callbackId, setCallbackId] = useState(null);
+const [renderChild, setRenderChild] = useState(false);
+</code></pre>
+<p>Next we use a <code>useEffect</code> hook, triggered only once, that will set a callback using the <code>requestIdleCallback</code>
+API. This will trigger whenever the browser is idle. As it is not supported in all browsers, we
+have a backup option of using a timeout, which will trigger on the next event loop.</p>
+<pre><code class="javascript language-javascript">useEffect(() =&gt; {
+  if (!isNode) {
+    if (typeof window.requestIdleCallback !== 'undefined') {
+      // https://caniuse.com/#search=requestIdleCallback
+      setCallbackId(
+        window.requestIdleCallback(() =&gt; {
+          setRenderChild(true);
+        }),
+      );
+    } else {
+      setTimeout(() =&gt; {
+        setRenderChild(true);
+      });
+    }
+  }
+}, []);
+</code></pre>
+<p>If we're rendering in the browser, and we're still waiting for our idle or urgent callback, we want
+to skip hydration. This is possible by returning a react element with <code>dangerouslySetInnerHTML={{ __html: '' }}</code>.
+One thing to note is <code>onClick: () =&gt; setRenderChild(true)</code>. This is our "Urgent" part of the pattern - if a user
+clicks the element we want to hydrate the component immediately.
+Another important thing to note is that this will only work if we're rendering the same type of HTML
+element - a pitfall I ran into by intially writing something like: <code>&lt;div dangerouslySetInnerHTML={{ __html: '' }}&gt;&lt;button&gt;click me&lt;/button&gt;&lt;/div&gt;</code>.</p>
+<pre><code class="javascript language-javascript">if (!isNode &amp;&amp; !renderChild) {
+  // eslint-disable-next-line react/no-danger-with-children
+  return React.createElement(
+    htmlElement,
+    {
+      dangerouslySetInnerHTML: { __html: '' },
+      suppressHydrationWarning: true,
+      onClick: () =&gt; setRenderChild(true),
+    },
+    null,
+  );
+}
+</code></pre>
+<p>The last part is pretty straightforward. Either we're in Node, and we want to render as normal, or
+<code>renderChild</code> is true, meaning that idle callback was triggered or the user clicked on the element,
+so it's time to hydrate (cleaning up our callback along the way).</p>
+<pre><code class="javascript language-javascript">if (!isNode &amp;&amp; callbackId) {
+  window.cancelIdleCallback(callbackId);
+}
+
+return children;
+</code></pre>
+<h2 id="performanceimpact">Performance Impact</h2>
+<p>We opted to test this out on one of our most heavily visited pages on fishbrain.com - the waters
+pages (<a href="https://fishbrain.com/fishing-waters/Icur1OcV/brisbane-river">here's an example of one such page</a>). This
+is what the flamegraph for the React render looked like:</p>
+<p><img src="initial.png" alt="Flamegraph if initial render" /></p>
+<p>Some of the components run so deep that they wouldn't fit on the screen. A particularly bad offender
+was the Tabs component:</p>
+<p><img src="tabs.png" alt="Flamegraph of Tabs" /></p>
+<p>From this we we're able to identify 4 particular components that were taking a long time to
+hydrate while not being something that need render immediately for any user benefit. Wrapping
+these components led to a decreased from approximately 450ms to hydrate to &lt;100ms!</p>
+<p><img src="with-idle-until-urgent.png" alt="Flamegraph after adding IdleUntilUrgent" /></p>
+<p>We also found that the IdleUntilUrgent components would hydrate pretty quickly after the initial
+hydration (usually less than 0.5s), so only an extremely quick user would be able to interact with
+an idled component.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>All of the above being said, this is not a pattern we're going to be using this all over the place.
+As is usual with these kind of performance hacks, it's something we only want to use in particular
+cases, but for those cases it's an impressively useful tool.</p>]]></description>
             <author>mail@lukehansford.me (Luke Hansford)</author>
         </item>
     </channel>
