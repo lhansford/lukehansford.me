@@ -1,11 +1,12 @@
 # lukehansford.me
 
 ## Developing Locally
+
 - `yarn dev`
 
 ## Updating
-- Push changes to git
-- Run `yarn update-remote`
+
+- Push the changes into the master branch and the Github actions will handle the rest.
 
 OR
 
